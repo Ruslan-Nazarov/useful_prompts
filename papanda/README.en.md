@@ -2,46 +2,60 @@
 
 [Русский](README.md)
 
-Build your own local time management app inspired by papanda: understand
-what matters now, plan the day, and review where your time went.
+Build your own local application inspired by papanda: a main undertaking and
+fallback, tasks, calendar, habits, activities, notes, sticky notes, chronology,
+and counters. The kit specifies core functions, small interactions, and appearance.
+
+## Kit contents
+
+| File | Contents |
+|---|---|
+| [PROMPT.en.md](PROMPT.en.md) | Main agent assignment: 12 modules, relationships, required actions, implementation sequence |
+| [SPEC.en.md](SPEC.en.md) | Detailed specification: fields, module behavior, 33 settings, 24 acceptance scenarios |
+| [FEATURES.en.md](FEATURES.en.md) | All 64 interactions: cloud navigation, double space, gestures, persistent undo, conversions, and more |
+| [VISUAL.en.md](VISUAL.en.md) | Colors, fonts, dimensions, grid, cards, dialogs, and responsive rules |
+| [reference/design-tokens.json](reference/design-tokens.json) | Exact visual values extracted from papanda styles |
+| [reference/default-layout.json](reference/default-layout.json) | Initial widget geometry |
+| [reference/example-layout.json](reference/example-layout.json) | Populated-example geometry |
+| [demo-data.json](demo-data.json) | Linked fictional AI developer records for exercising the application |
 
 ## What you need
 
-- A computer, an editor, and an AI coding agent that can create files and run commands.
-- An empty project folder the agent can access.
-- For the suggested stack, Python 3.12+ and a browser. The agent creates a virtual
-  environment and installs dependencies. Internet access is needed for the agent
-  and package installation.
-- Copies of [PROMPT.en.md](PROMPT.en.md), [SPEC.en.md](SPEC.en.md), and
-  [demo-data.json](demo-data.json) in the project folder.
+A computer, editor, and AI coding agent with file and command access. The suggested
+stack needs Python 3.12+ and a browser; the agent installs dependencies. Internet
+is needed for the agent and packages. Core application workflows require no API
+keys, Google Calendar, cloud account, or hosting. The agent itself may require an
+account and payment under its own terms.
 
-The application does not require API keys, Google Calendar, or paid hosting.
-Your AI agent may require an account and payment under its own terms.
+## Build
 
-## Build it
+1. Create an empty project folder. Copy this complete kit: the four assignment
+   documents, `reference` directory, and `demo-data.json`.
+2. Open it in your editor, give the agent access to the files, and send the entire
+   contents of `PROMPT.en.md`.
+3. The agent must read SPEC.en.md, FEATURES.en.md, VISUAL.en.md, and the fixture,
+   plan, then implement. Completing the first stage does not complete the assignment.
+4. Run its exact launch command. Check the main workflow, restart persistence,
+   and appearance against the visual specification.
+5. Complete the 24 specification scenarios and request a report on all 64 feature
+   items. Fix concrete discrepancies rather than equating visible buttons with completion.
 
-1. Open an empty folder in your editor and attach the three files to the agent conversation.
-2. Send the entire contents of `PROMPT.en.md`.
-3. Let the agent finish and run the first stage, then inspect the application in a browser.
-4. Continue through the prompt's stages. When something fails, provide the error
-   and the action that caused it. Verify persistence before entering personal data.
-5. Complete the acceptance checks in `SPEC.en.md`, restart the server, and confirm
-   that your changes remain.
+To continue:
 
-A useful follow-up prompt:
+> Compare the implementation with SPEC.en.md, FEATURES.en.md, and VISUAL.en.md.
+> Identify missing/incomplete items, then implement them while preserving working
+> behavior and data. Verify functionality and appearance and update the 64-item checklist.
 
-> Continue with the next unfinished stage in SPEC.en.md. First inspect what is
-> already implemented. Preserve working features and data, make the changes, run
-> appropriate checks, and show the exact launch command.
+If appearance differs:
 
-If the agent stops at a mockup:
+> Compare with VISUAL.en.md and reference/design-tokens.json. Correct colors,
+> typography, dimensions, cards, grid, and dialogs using the appropriate layout.
+> Keep the specified visual system. Check 390, 768, 1440, and 1920 px.
 
-> Connect every visible action to persistent storage. Check creation, editing,
-> and deletion through the interface, and verify persistence after a restart.
-> Do not declare the application complete based on a screenshot alone.
+## Example data
 
-`demo-data.json` describes a fictional AI developer and the Atlas project. All
-names and metrics are invented for demonstration; they are not research results.
-The example fixture is in Russian; use it as sample content when building your own app.
-The agent should adapt it to its own storage schema. Technical model names refer
-to the original papanda implementation.
+The fixture describes a fictional AI developer and Atlas project. Every character,
+record, and metric is invented; this is not the author's personal database or a
+research benchmark. It remains in Russian while documentation is bilingual.
+Adapt it to your schema while preserving links and relative dates. Seed explicitly
+into a separate database rather than mixing examples into personal records.

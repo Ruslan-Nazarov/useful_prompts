@@ -1,4 +1,5 @@
 .demo/
+.author/
 .venv/
 __pycache__/
 *.pyc
@@ -9,4 +10,3 @@ __pycache__/
 *.log
 .DS_Store
 public-kit.zip
-.author/

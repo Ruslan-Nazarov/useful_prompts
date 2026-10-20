@@ -16,3 +16,7 @@ all characters, records, and metrics are fictional.
 
 Results depend on the agent and technology stack. Each kit specifies application
 behavior but does not guarantee an exact copy of a reference interface.
+
+The papanda kit includes a [full specification](papanda/SPEC.en.md),
+[64 interaction details](papanda/FEATURES.en.md), and a [visual specification](papanda/VISUAL.en.md)
+with exact styling values.
