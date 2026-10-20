@@ -4,7 +4,7 @@
 
 ## Purpose and scope
 
-A personal local tool: one user, one browser, one SQLite database. The video
+A local time management app: one user, one browser, one SQLite database. The video
 illustrates the idea; reproducing papanda's exact appearance is not required.
 SaaS accounts, multi-user roles, billing, and a required AI API are outside scope.
 

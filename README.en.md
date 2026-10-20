@@ -8,7 +8,7 @@ independent implementation.
 
 | Project | What you build | Materials |
 |---|---|---|
-| papanda: personal time | A local dashboard for tasks, a calendar, habits, and notes | [English](papanda/README.en.md) · [Русский](papanda/README.md) |
+| papanda — time management | A time management app with tasks, a calendar, habits, and notes | [English](papanda/README.en.md) · [Русский](papanda/README.md) |
 
 Open the project's README and follow its instructions. Prompts and requirements
 are available in Russian and English. The papanda sample data is in Russian;

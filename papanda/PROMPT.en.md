@@ -1,4 +1,4 @@
-# Prompt: build my personal time dashboard
+# Prompt: build a time management app
 
 [Русский](PROMPT.md)
 
@@ -21,7 +21,7 @@ Separate routes, models, data operations, templates, and client code.
 Work in stages:
 
 1. Foundation: virtual environment, server, persistent database, and responsive
-   dashboard. Implement the main undertaking, tasks grouped into sets, today's
+   main screen. Implement the main undertaking, tasks grouped into sets, today's
    and tomorrow's events, and notes. Make creation, editing, and deletion work
    through the interface from the beginning.
 2. Add habits, a dated journal, date counters, and note categories. Seed a separate

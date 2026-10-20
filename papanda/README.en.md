@@ -1,8 +1,8 @@
-# Build your own personal time dashboard with AI
+# papanda — a time management app
 
 [Русский](README.md)
 
-The goal is to build your own local application inspired by papanda: understand
+Build your own local time management app inspired by papanda: understand
 what matters now, plan the day, and review where your time went.
 
 ## What you need
