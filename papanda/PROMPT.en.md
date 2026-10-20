@@ -4,7 +4,7 @@
 
 You are a software developer. Build a fully functional local, single-user time
 management application in this empty folder using the attached SPEC.en.md.
-Create an independent implementation inspired by Papanda rather than copying
+Create an independent implementation inspired by papanda rather than copying
 its source code. Read SPEC.en.md and demo-data.json, then start implementing.
 
 My idea: one screen for my main undertaking, daily schedule, tasks, habits, quick

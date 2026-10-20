@@ -5,7 +5,7 @@
 ## Purpose and scope
 
 A personal local tool: one user, one browser, one SQLite database. The video
-illustrates the idea; reproducing Papanda's exact appearance is not required.
+illustrates the idea; reproducing papanda's exact appearance is not required.
 SaaS accounts, multi-user roles, billing, and a required AI API are outside scope.
 
 ## Behavior
@@ -48,11 +48,11 @@ Russian because the video is in Russian. Adapt it to your own schema.
 In `demo-data.json`:
 
 - `anchor_timezone` identifies the anchor day's time zone.
-- `tables` contains rows for original Papanda models; adapt them to your implementation.
+- `tables` contains rows for original papanda models; adapt them to your implementation.
 - `{"$date": -3}` means three days before the anchor day.
 - `{"$datetime": [2, "14:00"]}` means two days later at 14:00.
 - Numeric `id`, `task_id`, `note_id`, and similar fields are stable links within the fixture.
-- `recurrence_rule` uses Papanda rules such as `daily` and `weekly`; the end date is separate.
+- `recurrence_rule` uses papanda rules such as `daily` and `weekly`; the end date is separate.
 - The original Observation model stores activity start time in the time component
   of `created_at`. Prefer an explicit start-time field in a new implementation.
 

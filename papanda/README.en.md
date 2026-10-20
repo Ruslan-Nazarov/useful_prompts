@@ -2,7 +2,7 @@
 
 [Русский](README.md)
 
-The goal is to build your own local application inspired by Papanda: understand
+The goal is to build your own local application inspired by papanda: understand
 what matters now, plan the day, and review where your time went.
 
 ## What you need
@@ -42,59 +42,6 @@ If the agent stops at a mockup:
 
 `demo-data.json` describes a fictional AI developer and the Atlas project. All
 names and metrics are invented for demonstration; they are not research results.
-The fixture intentionally remains in Russian because the video is in Russian.
+The example fixture is in Russian; use it as sample content when building your own app.
 The agent should adapt it to its own storage schema. Technical model names refer
-to the original Papanda implementation.
-
-## For the video author: isolated Papanda demo
-
-This path prepares the existing application for filming. Viewers build their own
-application using the prompt above. You need a local Papanda source folder and
-Python with its dependencies installed.
-
-The builder copies application code and an explicit set of supporting files.
-It does not copy the personal database, `.env`, integrations, or analytics templates.
-Voice and Google Calendar routes are disabled, and API keys are not inherited.
-
-From the original Papanda root in PowerShell:
-
-```powershell
-.\.venv\Scripts\python.exe -B prompt-library\papanda\demo.py prepare --source .
-.\.venv\Scripts\python.exe -B prompt-library\papanda\demo.py check
-.\.venv\Scripts\python.exe -B prompt-library\papanda\demo.py run
-```
-
-Open [the demo](http://127.0.0.1:8011/). Select Russian using the application menu
-if necessary. Stop the server with Ctrl+C. Port 8011 separates the demo address
-and browser storage from a usual launch on port 8000. Cookies may be shared across
-ports, so a separate browser profile is useful for recording.
-
-After moving the kit to its own repository:
-
-```powershell
-# First create an environment and install the Papanda source requirements.txt.
-python -B papanda/demo.py prepare --source "D:\path\to\papanda"
-python -B papanda/demo.py check
-python -B papanda/demo.py run
-```
-
-Each `prepare` creates a new take in `papanda/.demo/runs/`. It updates `current.json`
-only after successful seeding. Earlier takes are retained. Scenario dates are
-relative to the current day in Asia/Qyzylorda. To prepare for a specific date:
-
-```powershell
-python -B papanda/demo.py prepare --source "D:\path\to\papanda" --date 2026-10-20
-```
-
-This sets the record dates, not the application's clock. For recording on a later
-day, prepare another take without `--date` so events appear under Today.
-Stop the old server before preparing a new take. `run` never resets the database;
-actions performed while recording are saved. Commands print the database path.
-
-See [VIDEO.en.md](VIDEO.en.md) for the recording script,
-[FEATURES.en.md](FEATURES.en.md) for 64 small product details, and
-[COMPARISON.en.md](COMPARISON.en.md) for the comparison with other products.
-
-For publication, use `demo.py export`. It creates `public-kit.zip` from an explicit
-allowlist of public files. Extract the archive into the new repository's empty
-folder. See [PRIVACY.en.md](PRIVACY.en.md).
+to the original papanda implementation.
