@@ -1,0 +1,11 @@
+.demo/
+.venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.db-*
+*.sqlite*
+*.log
+.DS_Store
+public-kit.zip
