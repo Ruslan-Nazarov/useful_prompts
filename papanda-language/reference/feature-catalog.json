@@ -1,0 +1,1494 @@
+{
+  "features": [
+    {
+      "id": "F001",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Дождаться hydration; ошибка чтения даёт повтор без перезаписи профиля.",
+        "en": "Gate study UI on hydration; storage failure offers retry without overwriting the profile."
+      }
+    },
+    {
+      "id": "F002",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Введение: листание, вперёд, пропуск, завершение; флаг переживает перезапуск.",
+        "en": "Onboarding supports swiping, next, skip and finish; completion survives restart."
+      }
+    },
+    {
+      "id": "F003",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Повтор введения из настроек без сброса прогресса.",
+        "en": "Replay onboarding from settings without resetting progress."
+      }
+    },
+    {
+      "id": "F004",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Пять вкладок в заданном порядке, начальная — центральный разбор.",
+        "en": "Five tabs in the specified order; the central sentence trainer opens first."
+      }
+    },
+    {
+      "id": "F005",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Словарь, мастерская и книга открываются в стеке с возвратом.",
+        "en": "Dictionary, workshop and book use nested navigation with return."
+      }
+    },
+    {
+      "id": "F006",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Android Back сначала закрывает модальное окно; действия доступны в web с клавиатуры.",
+        "en": "Android Back closes a modal first; web actions support keyboard access."
+      }
+    },
+    {
+      "id": "F007",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Выбор и порядок семи языков сохраняются; последний язык нельзя снять.",
+        "en": "Selection and order of seven languages persist; the last language cannot be deselected."
+      }
+    },
+    {
+      "id": "F008",
+      "group": {
+        "ru": "Запуск и навигация",
+        "en": "Startup and navigation"
+      },
+      "requirement": {
+        "ru": "Смена языков обновляет все экраны и отменяет старые задачи.",
+        "en": "Changing languages updates all screens and invalidates old tasks."
+      }
+    },
+    {
+      "id": "F009",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Одна карточка показывает все активные переводы в выбранном порядке.",
+        "en": "One card displays all active translations in configured order."
+      }
+    },
+    {
+      "id": "F010",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Взвешенный выбор по памяти, без немедленного повтора при наличии альтернатив.",
+        "en": "Memory-weighted selection avoids immediate repetition when alternatives exist."
+      }
+    },
+    {
+      "id": "F011",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Тур конечной длины: счёт пройденных, завершение, новый тур и возврат после последней.",
+        "en": "Finite tours track completed cards, finish, restart and allow return from the end."
+      }
+    },
+    {
+      "id": "F012",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Показ считается один раз, по каждому активному языку; render не добавляет показы.",
+        "en": "A card visit counts once for every active language; rerenders do not add shows."
+      }
+    },
+    {
+      "id": "F013",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Выучено отмечает активные переводы; Undo сохраняет показы и независимые правки.",
+        "en": "Learned marks active translations; Undo preserves shows and independent edits."
+      }
+    },
+    {
+      "id": "F014",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Ассоциация сохраняется через 1500 мс и при уходе без записи в другую карточку.",
+        "en": "Association saves after 1500 ms and on leaving, never into another card."
+      }
+    },
+    {
+      "id": "F015",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Избранное, правка и подробная статистика слова доступны из карточки.",
+        "en": "Favorite, editing and detailed word statistics are available on a card."
+      }
+    },
+    {
+      "id": "F016",
+      "group": {
+        "ru": "Карточки слов",
+        "en": "Word cards"
+      },
+      "requirement": {
+        "ru": "Нажатие перевода открывает пример именно этого слова и языка.",
+        "en": "Tapping a translation opens practice for that word and language."
+      }
+    },
+    {
+      "id": "F017",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Поиск по всем переводам, исходному слову и ассоциациям; счёт результатов.",
+        "en": "Search all translations, source spelling and associations; show result count."
+      }
+    },
+    {
+      "id": "F018",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Добавление слова с source_language и стабильным ключом без дубля.",
+        "en": "Add a word with source_language and a stable key without duplicates."
+      }
+    },
+    {
+      "id": "F019",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Редактирование видимого слова/переводов не меняет ключ и прогресс.",
+        "en": "Editing displayed spelling/translations preserves key and progress."
+      }
+    },
+    {
+      "id": "F020",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Лемма из токена сохраняет дефисы/апострофы и не берёт данные другого токена.",
+        "en": "Token lemmas preserve internal hyphens/apostrophes and never use another token’s data."
+      }
+    },
+    {
+      "id": "F021",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Пустой перевод не заменяется словом другого языка; пустое исходное слово не сохраняется.",
+        "en": "Missing translations never fall back to another language; blank source words cannot be saved."
+      }
+    },
+    {
+      "id": "F022",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "ИИ-проверка помечает сомнение, не правит перевод; редактирование снимает старый вердикт.",
+        "en": "AI verification flags doubts without rewriting; editing invalidates the old verdict."
+      }
+    },
+    {
+      "id": "F023",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Краткое произношение до 60 слов и подробный режим с отдельным кешем.",
+        "en": "Short pronunciation help is at most 60 words; detailed mode has a separate cache."
+      }
+    },
+    {
+      "id": "F024",
+      "group": {
+        "ru": "Словарь и произношение",
+        "en": "Dictionary and pronunciation"
+      },
+      "requirement": {
+        "ru": "Закрытие/смена слова отменяет объяснение; ошибка допускает повтор.",
+        "en": "Closing/changing a word cancels pronunciation help; errors offer retry."
+      }
+    },
+    {
+      "id": "F025",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Целевой ответ скрыт до раскрытия; оценка кнопками и свайпами эквивалентна.",
+        "en": "Target answer stays hidden until revealed; buttons and swipes have equivalent grading."
+      }
+    },
+    {
+      "id": "F026",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Очередь уникальных пар слово/язык строится по failed/fresh/learned алгоритму.",
+        "en": "Unique word/language queue follows the failed/fresh/learned selection algorithm."
+      }
+    },
+    {
+      "id": "F027",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Нет пар без перевода или с действующей отсрочкой; пустая очередь объяснена.",
+        "en": "Exclude missing translations and snoozed pairs; explain an empty queue."
+      }
+    },
+    {
+      "id": "F028",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Один ответ на анимацию; отметка/показ обновляют только текущий язык.",
+        "en": "One answer per animation; grade/show updates only the current language."
+      }
+    },
+    {
+      "id": "F029",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Undo возвращает оценку/счёт/позицию, сохраняет факт показа и правки.",
+        "en": "Undo restores grade, score and position while preserving shows and edits."
+      }
+    },
+    {
+      "id": "F030",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Отложить на 7 дней только данную пару, без ошибки и показа; первое подтверждение.",
+        "en": "Snooze the current pair for 7 days without a wrong answer/show; confirm the first use."
+      }
+    },
+    {
+      "id": "F031",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Один итог завершённой сессии; закрытие начинает новую очередь.",
+        "en": "Store one summary per finished session; closing starts a new queue."
+      }
+    },
+    {
+      "id": "F032",
+      "group": {
+        "ru": "Узнавание и повторение",
+        "en": "Recognition and review"
+      },
+      "requirement": {
+        "ru": "Избранное действует на обычную очередь; повторение сегодня игнорирует его и имеет выход.",
+        "en": "Favorites filter normal practice; today’s review ignores it and offers a return."
+      }
+    },
+    {
+      "id": "F033",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Токены сохраняют порядок чтения, раскрываются группами основы/роли по STRICT_ORDER.",
+        "en": "Keep tokens in reading order and reveal clause/role groups in STRICT_ORDER."
+      }
+    },
+    {
+      "id": "F034",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Составное и разорванное сказуемое раскрывается целиком в одной основе.",
+        "en": "Reveal multiword/discontinuous predicates together within their clause."
+      }
+    },
+    {
+      "id": "F035",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Пошаговый/Flash, перевод и легенда доступны; скрытое не выдаёт ответ заранее.",
+        "en": "Step/Flash modes, translation and legend work without leaking hidden answers."
+      }
+    },
+    {
+      "id": "F036",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Морфемы только из parts; отсутствие деления не объявляется неделимостью.",
+        "en": "Show only supplied parts; missing segmentation is not claimed as indivisibility."
+      }
+    },
+    {
+      "id": "F037",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Связь со словарём вычисляется заново; добавление слова из текущего токена.",
+        "en": "Recompute dictionary membership and add words from the current token."
+      }
+    },
+    {
+      "id": "F038",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Один показ словарной записи за карточку/язык при повторах токена и render.",
+        "en": "Count one dictionary-key exposure per card/language despite repeated tokens/renders."
+      }
+    },
+    {
+      "id": "F039",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Очередь не теряет позицию при пополнении; кеш ограничен с сохранением серии.",
+        "en": "Queue keeps position on refill; bounded cache preserves coherent series."
+      }
+    },
+    {
+      "id": "F040",
+      "group": {
+        "ru": "Разбор предложений",
+        "en": "Sentence trainer"
+      },
+      "requirement": {
+        "ru": "Редактор проверяет текст/токены; правка текста сбрасывает устаревшие метаданные и объяснение.",
+        "en": "Editor validates text/tokens; text changes invalidate stale metadata and explanation."
+      }
+    },
+    {
+      "id": "F041",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Пять режимов, смена языка/режима отменяет старый запрос.",
+        "en": "Five modes; changing mode/language cancels the old request."
+      }
+    },
+    {
+      "id": "F042",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Самостоятельный выбор множества слов роли, включая все части сказуемого.",
+        "en": "Select the full set of role tokens, including every predicate part."
+      }
+    },
+    {
+      "id": "F043",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Проверка показывает пропущенные/лишние индексы и ведёт по основам.",
+        "en": "Checking shows missing/extra indices and progresses through clauses."
+      }
+    },
+    {
+      "id": "F044",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Подсказки: вопрос, затем маркер с проверяемым evidence; неизвестность обозначена.",
+        "en": "Hints give a role question, then validated marker evidence; missing evidence is explicit."
+      }
+    },
+    {
+      "id": "F045",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Перевод/правило считаются помощью; спорный ответ исключён из агрегатов.",
+        "en": "Translation/book rules count as help; disputed answers are excluded from aggregates."
+      }
+    },
+    {
+      "id": "F046",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Следующий пример приоритетно тренирует слабую роль текущего языка.",
+        "en": "Next exercise prioritizes a weak role in the current language."
+      }
+    },
+    {
+      "id": "F047",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Нарастающие серии сохраняют мысль и подсвечивают новые вхождения; есть офлайн fallback.",
+        "en": "Growing series preserve the thought, highlight new occurrences and have offline fallback."
+      }
+    },
+    {
+      "id": "F048",
+      "group": {
+        "ru": "Мастерская",
+        "en": "Workshop"
+      },
+      "requirement": {
+        "ru": "Развитие своей детали и одна мысль на семи языках; автономные примеры и проверяемый ИИ.",
+        "en": "Extend a thought and compare it across seven languages using offline examples and validated AI."
+      }
+    },
+    {
+      "id": "F049",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "Деление абзаца — предложение границ с редактированием, не автоматическое принятие.",
+        "en": "Paragraph splitting proposes editable boundaries rather than accepting them automatically."
+      }
+    },
+    {
+      "id": "F050",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "Перед сохранением нужно явно подтвердить границы.",
+        "en": "Explicitly confirm segment boundaries before saving."
+      }
+    },
+    {
+      "id": "F051",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "До 10 текстов, 20 предложений, 6000 символов всего и 600 на предложение.",
+        "en": "Limit to 10 texts, 20 sentences, 6000 total characters and 600 per sentence."
+      }
+    },
+    {
+      "id": "F052",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "Чтение по одному сегменту, сохранение позиции после перезапуска.",
+        "en": "Read one segment at a time and restore position after restart."
+      }
+    },
+    {
+      "id": "F053",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "ИИ-разбор только по кнопке и привязан к точному тексту/языку/позиции.",
+        "en": "Analyze only by explicit action and bind results to exact text/language/position."
+      }
+    },
+    {
+      "id": "F054",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "Готовые разборы доступны офлайн и входят в backup.",
+        "en": "Saved analyses work offline and are included in backups."
+      }
+    },
+    {
+      "id": "F055",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "Переход/удаление отменяет запрос; поздний ответ не возвращает удалённый текст.",
+        "en": "Navigation/deletion cancels work; late responses cannot resurrect deleted text."
+      }
+    },
+    {
+      "id": "F056",
+      "group": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "requirement": {
+        "ru": "Удаление подтверждается; отмена сохраняет текст и карточки.",
+        "en": "Confirm deletion; cancellation preserves text and cards."
+      }
+    },
+    {
+      "id": "F057",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Все 66 материалов, автор/название и отдельная лицензия доступны офлайн.",
+        "en": "All 66 materials, author/title and separate license are available offline."
+      }
+    },
+    {
+      "id": "F058",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Оглавление разделов/глав/заголовков и переходы к соседним главам.",
+        "en": "Section/chapter/heading contents and adjacent-chapter navigation."
+      }
+    },
+    {
+      "id": "F059",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Поиск по разделу/всей книге открывает и выделяет точный блок.",
+        "en": "Section/global search opens and highlights the exact block."
+      }
+    },
+    {
+      "id": "F060",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Таблицы как карточки или сетка с внутренним скроллом и объединениями ячеек.",
+        "en": "Tables support cards or internally scrolling grids with merged cells."
+      }
+    },
+    {
+      "id": "F061",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Шрифт 15..23, до 100 закладок, продолжение чтения после перезапуска.",
+        "en": "Font size 15..23, up to 100 bookmarks and reading continuation after restart."
+      }
+    },
+    {
+      "id": "F062",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Из упражнения открыть правило и вернуться к прежнему шагу с отметкой помощи.",
+        "en": "Open a rule from an exercise and return to the same step marked assisted."
+      }
+    },
+    {
+      "id": "F063",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Из языковой главы открыть практику с возвратом; ru/la ограничения объяснены.",
+        "en": "Open practice from language chapters with return; explain ru/la limitations."
+      }
+    },
+    {
+      "id": "F064",
+      "group": {
+        "ru": "Книга",
+        "en": "Book"
+      },
+      "requirement": {
+        "ru": "Стабильные адреса/хеши, устаревшие закладки фильтруются; текст автора не переписан.",
+        "en": "Stable addresses/hashes, safe stale-bookmark filtering and unchanged source text."
+      }
+    },
+    {
+      "id": "F065",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Секреты только на Worker; проверенный HTTP/body/config и единый ответ {text}.",
+        "en": "Worker-only secrets; validated HTTP/body/config and normalized {text} response."
+      }
+    },
+    {
+      "id": "F066",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "SQLite Durable Object атомарно проверяет квоты, fallback и таймауты ограничены.",
+        "en": "SQLite Durable Object enforces atomic quotas; fallback/timeouts are bounded."
+      }
+    },
+    {
+      "id": "F067",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Составление → разметка → локальная проверка → независимый аудит.",
+        "en": "Composition → annotation → local validation → independent audit."
+      }
+    },
+    {
+      "id": "F068",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Не более одного ремонта; плохая цепочка пересоставляется целиком.",
+        "en": "At most one repair round; invalid development chains are regenerated together."
+      }
+    },
+    {
+      "id": "F069",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Целевое слово действительно присутствует; taskId/порядок/дубликаты проверены.",
+        "en": "Requested lexeme is present; task IDs, order and duplicates are validated."
+      }
+    },
+    {
+      "id": "F070",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Этапы/отмена доступны; fetch/backoff/валидация уступают управлению, поздние commit запрещены.",
+        "en": "Expose phases/cancel; fetch/backoff/validation remain interruptible; stale commits are rejected."
+      }
+    },
+    {
+      "id": "F071",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Объяснение от основы к деталям, свёрнутые слова/источники; реальные книжные ссылки.",
+        "en": "Explain the predicate/core first, collapse word details/sources and use actual book links."
+      }
+    },
+    {
+      "id": "F072",
+      "group": {
+        "ru": "ИИ и конкурентность",
+        "en": "AI and concurrency"
+      },
+      "requirement": {
+        "ru": "Ограниченный фон, явный приоритет, прозрачность передачи данных и автономный отказ.",
+        "en": "Bounded background work, foreground priority, clear data disclosure and offline fallback."
+      }
+    },
+    {
+      "id": "F073",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Объём, встреченные слова, охват, знакомые по языкам и всем активным.",
+        "en": "Volume, seen words, coverage, known by language and known across active languages."
+      }
+    },
+    {
+      "id": "F074",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Распределение по средним показам практиковавшихся языков, заданные границы.",
+        "en": "Exposure distribution averages practiced languages using specified boundaries."
+      }
+    },
+    {
+      "id": "F075",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "iMW по точной формуле, нулевые случаи без NaN, общий средневзвешен по парам.",
+        "en": "Exact iMW formula, safe zero cases and overall averaging across studied pairs."
+      }
+    },
+    {
+      "id": "F076",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Показы/даты по локальному дню; открытие графика не создаёт события.",
+        "en": "Local-day counters/dates; opening charts does not create learning events."
+      }
+    },
+    {
+      "id": "F077",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Точки iMW: последняя за день; ограничение истории 180.",
+        "en": "Latest iMW snapshot per day; history capped at 180."
+      }
+    },
+    {
+      "id": "F078",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Тренировки дня суммируются; correct/total и проценты, максимум 200 итогов.",
+        "en": "Daily workouts aggregate correct/total and success rate; retain at most 200 summaries."
+      }
+    },
+    {
+      "id": "F079",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Due исключает сегодня/отсрочку/нет перевода, ранжирует по весу и объясняет причину.",
+        "en": "Due review excludes today/snooze/missing translation, ranks by weight and explains reasons."
+      }
+    },
+    {
+      "id": "F080",
+      "group": {
+        "ru": "Статистика",
+        "en": "Statistics"
+      },
+      "requirement": {
+        "ru": "Навыки структуры отдельно: самостоятельно/с помощью/ошибка; iMW не объявлен объективной оценкой.",
+        "en": "Structure skills separate independent/assisted/errors; iMW is not claimed as objective proficiency."
+      }
+    },
+    {
+      "id": "F081",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Встроенные каталоги отделены от прогресса; новый профиль не наследует историю автора.",
+        "en": "Built-in catalogs are separate from progress; new profiles never inherit author history."
+      }
+    },
+    {
+      "id": "F082",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Runtime-валидация и миграции до commit, стабильные ключи и проекции.",
+        "en": "Runtime validation/migrations precede commits; stable keys and shared projections."
+      }
+    },
+    {
+      "id": "F083",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Экспорт v1 с app/version/exportedAt, независимая копия только объявленных полей.",
+        "en": "Version-1 export with app/version/exportedAt and detached declared progress fields."
+      }
+    },
+    {
+      "id": "F084",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Импорт до 10 MiB UTF-8, проверка связанных текстов/чисел/языков и конфликты.",
+        "en": "Import up to 10 MiB UTF-8; validate linked texts/numbers/languages and conflicts."
+      }
+    },
+    {
+      "id": "F085",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Предпросмотр и отмена ничего не меняют; явная замена с описанием потерь.",
+        "en": "Preview/cancel do not mutate data; explicit replacement describes its scope."
+      }
+    },
+    {
+      "id": "F086",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Сначала restore point; отказ записи запрещает импорт; операции сериализованы.",
+        "en": "Save restore point first; failure blocks import; serialize recovery operations."
+      }
+    },
+    {
+      "id": "F087",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Возврат после перезапуска, сброс runtime и отмена старых задач.",
+        "en": "Recovery works after restart, resets runtime state and cancels old tasks."
+      }
+    },
+    {
+      "id": "F088",
+      "group": {
+        "ru": "Данные и восстановление",
+        "en": "Data and recovery"
+      },
+      "requirement": {
+        "ru": "Сброс статистики с подтверждением сохраняет контент/правки/ассоциации/избранное.",
+        "en": "Confirmed statistics reset preserves content, edits, associations and favorites."
+      }
+    },
+    {
+      "id": "F089",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "Оформление по токенам, цвета ролей независимы от брендового акцента.",
+        "en": "Follow design tokens; role colors remain independent of brand accent."
+      }
+    },
+    {
+      "id": "F090",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "320/390/768/1440, длинные слова, семь языков, safe area и клавиатура.",
+        "en": "Handle 320/390/768/1440 widths, long words, seven languages, safe areas and keyboards."
+      }
+    },
+    {
+      "id": "F091",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "Окна прокручиваются, закрытие доступно, hidden/selected/disabled доступны screen reader.",
+        "en": "Scrollable modals with reachable close; accessible hidden/selected/disabled states."
+      }
+    },
+    {
+      "id": "F092",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "Книга и офлайн-режим не требуют ключа; пользовательский текст не исполняется.",
+        "en": "Book/offline practice require no key; user text is never executed."
+      }
+    },
+    {
+      "id": "F093",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "Lock-файлы, CI, чистые алгоритмы и мок-сеть с воспроизводимыми командами.",
+        "en": "Lockfiles, CI, pure algorithms and mocked network with reproducible commands."
+      }
+    },
+    {
+      "id": "F094",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "README/разработка/контент/приватность/восстановление/выпуск описаны для нового владельца.",
+        "en": "Document setup, development, content, privacy, recovery and release for a new owner."
+      }
+    },
+    {
+      "id": "F095",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "Собственные идентификаторы/env/подписи; APK и JS-экспорт различаются в отчёте.",
+        "en": "Use owner-specific identifiers/env/signing; distinguish APK from JS export in reports."
+      }
+    },
+    {
+      "id": "F096",
+      "group": {
+        "ru": "Интерфейс и передача",
+        "en": "Interface and delivery"
+      },
+      "requirement": {
+        "ru": "Отчёт по всем F/A-ID с фактическими проверками, ограничениями и лицензиями.",
+        "en": "Report all F/A IDs with actual evidence, limitations and source licenses."
+      }
+    }
+  ],
+  "acceptance": [
+    {
+      "id": "A01",
+      "features": "F001–F003",
+      "title": {
+        "ru": "Чистый запуск и повтор",
+        "en": "Clean start and replay"
+      },
+      "steps": {
+        "ru": "Открыть без storage, пройти/пропустить вводные, перезапустить, повторить из настроек; прогресс не сброшен.",
+        "en": "Start with empty storage, finish/skip onboarding, restart and replay from settings; progress remains."
+      }
+    },
+    {
+      "id": "A02",
+      "features": "F001,F082",
+      "title": {
+        "ru": "Повреждённое хранение",
+        "en": "Corrupt storage"
+      },
+      "steps": {
+        "ru": "Подложить неверный JSON/тип; ошибка и повтор чтения, исходное значение не перезаписано.",
+        "en": "Inject invalid JSON/types; show error/retry and preserve the original stored value."
+      }
+    },
+    {
+      "id": "A03",
+      "features": "F004–F008",
+      "title": {
+        "ru": "Навигация и языки",
+        "en": "Navigation and languages"
+      },
+      "steps": {
+        "ru": "Пройти пять вкладок/три вложенных экрана и Back; выбрать/переставить языки, проверить перезапуск и запрет удаления последнего.",
+        "en": "Visit all tabs/nested screens and Back; select/reorder languages, restart and verify the last cannot be removed."
+      }
+    },
+    {
+      "id": "A04",
+      "features": "F009–F016",
+      "title": {
+        "ru": "Тур слов",
+        "en": "Word tour"
+      },
+      "steps": {
+        "ru": "Пройти тур 5, вернуться с конца, начать новый; семь переводов в порядке; известные исключены, показ не умножается render.",
+        "en": "Complete a 5-card tour, return from its end and restart; verify ordered languages, eligibility and no rerender overcount."
+      }
+    },
+    {
+      "id": "A05",
+      "features": "F013,F015,F027,F029",
+      "title": {
+        "ru": "Точная отмена",
+        "en": "Scoped undo"
+      },
+      "steps": {
+        "ru": "Оценить слово, затем изменить перевод/ассоциацию/избранное, Undo; отменена оценка, независимые правки и показы сохранены.",
+        "en": "Grade a word, edit translation/association/favorite, then Undo; only grading rolls back, independent edits/shows remain."
+      }
+    },
+    {
+      "id": "A06",
+      "features": "F014",
+      "title": {
+        "ru": "Ассоциация при переходе",
+        "en": "Association on navigation"
+      },
+      "steps": {
+        "ru": "Ввести текст и уйти до 1500 мс; вернуться и перезапустить; текст только у исходного слова.",
+        "en": "Type and leave before 1500 ms; return/restart; text belongs only to its original word."
+      }
+    },
+    {
+      "id": "A07",
+      "features": "F017–F022",
+      "title": {
+        "ru": "Словарь",
+        "en": "Dictionary"
+      },
+      "steps": {
+        "ru": "Создать слово из казахского/немецкого токена, найти переводом/ассоциацией, изменить; ключ неизменен, дублей и ложных fallback нет.",
+        "en": "Add from a Kazakh/German token, search by translation/association and edit; stable key, no duplicates/false fallback."
+      }
+    },
+    {
+      "id": "A08",
+      "features": "F023,F024",
+      "title": {
+        "ru": "Произношение",
+        "en": "Pronunciation"
+      },
+      "steps": {
+        "ru": "Заглушкой проверить short/detailed cache, ошибку/повтор и закрытие с поздним ответом; чужой ответ не показан.",
+        "en": "Mock short/detailed cache, error/retry and close with late response; stale output never appears."
+      }
+    },
+    {
+      "id": "A09",
+      "features": "F025–F028",
+      "title": {
+        "ru": "Очередь и оценка",
+        "en": "Queue and grading"
+      },
+      "steps": {
+        "ru": "Фиксированные время/random, failed/fresh/learned/нет перевода/snooze; проверить формулу отбора, скрытие, кнопки/свайпы и одиночный ответ.",
+        "en": "Use fixed time/random and failed/fresh/learned/missing/snoozed data; verify selection, hidden answer, button/swipe parity and one grade."
+      }
+    },
+    {
+      "id": "A10",
+      "features": "F030",
+      "title": {
+        "ru": "Отсрочка",
+        "en": "Snooze"
+      },
+      "steps": {
+        "ru": "Отложить пару на 7 суток; другой язык доступен; показ/ошибка не добавлены; до/после границы времени.",
+        "en": "Snooze a pair for 7 days; another language remains eligible; no show/error added; test both sides of expiry."
+      }
+    },
+    {
+      "id": "A11",
+      "features": "F031,F078",
+      "title": {
+        "ru": "Итоги",
+        "en": "Summaries"
+      },
+      "steps": {
+        "ru": "Завершить две сессии одного дня; один итог на сессию, дневной total/correct суммирован; fixtures дают 15/11.",
+        "en": "Finish two sessions on one day; one snapshot each and summed total/correct; fixtures yield 15/11."
+      }
+    },
+    {
+      "id": "A12",
+      "features": "F032,F079",
+      "title": {
+        "ru": "Повторение сегодня",
+        "en": "Today review"
+      },
+      "steps": {
+        "ru": "Вчера/сегодня, low/high weight, missing/snooze, избранное=false; план и queue совпадают, из review можно выйти.",
+        "en": "Test yesterday/today, low/high weights, missing/snoozed and nonfavorites; plan matches queue and review can exit."
+      }
+    },
+    {
+      "id": "A13",
+      "features": "F033–F036",
+      "title": {
+        "ru": "Группы и морфемы",
+        "en": "Groups and morphology"
+      },
+      "steps": {
+        "ru": "She did not come. и Қыз ұйықтаған жоқ.: Predicate целиком; две основы не смешаны; parts склеиваются; Flash/перевод работают.",
+        "en": "Check both negative fixtures: whole predicates, no mixing clauses, concatenating parts and working Flash/translation."
+      }
+    },
+    {
+      "id": "A14",
+      "features": "F037,F038",
+      "title": {
+        "ru": "Словарь из фразы",
+        "en": "Dictionary from a sentence"
+      },
+      "steps": {
+        "ru": "Повторить одно слово дважды в карточке, раскрывать/переводить/rerender; одна запись показа, добавление верной леммы без дубля.",
+        "en": "Repeat a word twice and reveal/translate/rerender; one exposure and correct lemma addition without duplicates."
+      }
+    },
+    {
+      "id": "A15",
+      "features": "F039,F068",
+      "title": {
+        "ru": "Целостность серий",
+        "en": "Series integrity"
+      },
+      "steps": {
+        "ru": "Пополнить очередь/переполнить кеш; позиция сохраняется, серии не смешиваются и пригодны после вытеснения.",
+        "en": "Refill and overflow cache; preserve position and coherent usable series after eviction."
+      }
+    },
+    {
+      "id": "A16",
+      "features": "F040,F071",
+      "title": {
+        "ru": "Правка и кеш",
+        "en": "Editing and cache"
+      },
+      "steps": {
+        "ru": "Изменить разметку и текст с тем же id; обновлённый текст требует нового объяснения, устаревшие метаданные удалены.",
+        "en": "Change annotation and source with the same ID; explanation refreshes and stale metadata disappears."
+      }
+    },
+    {
+      "id": "A17",
+      "features": "F041–F045",
+      "title": {
+        "ru": "Самостоятельный разбор",
+        "en": "Independent parsing"
+      },
+      "steps": {
+        "ru": "Выбрать часть сказуемого, получить missing/extra; пройти hints/перевод/правило, вернуться; спорный исключён, помощь учтена.",
+        "en": "Select an incomplete predicate, inspect missing/extra, use hints/translation/book and return; disputed excluded, assistance counted."
+      }
+    },
+    {
+      "id": "A18",
+      "features": "F046,F080",
+      "title": {
+        "ru": "Слабая роль",
+        "en": "Weak role"
+      },
+      "steps": {
+        "ru": "Подложить независимые/assisted/incorrect/disputed попытки; агрегаты и выбор следующей роли следуют SPEC.",
+        "en": "Seed independent/assisted/incorrect/disputed attempts; verify aggregates and next-role recommendation."
+      }
+    },
+    {
+      "id": "A19",
+      "features": "F047,F048",
+      "title": {
+        "ru": "Развитие и сравнение",
+        "en": "Development and comparison"
+      },
+      "steps": {
+        "ru": "Без сети четыре шага каждого языка/семь сравнений; новые вхождения подсвечены; ИИ не меняет основу при добавлении детали.",
+        "en": "Offline four-step chains for every language and seven comparisons; highlight new occurrences; AI extension preserves the basis."
+      }
+    },
+    {
+      "id": "A20",
+      "features": "F049–F056",
+      "title": {
+        "ru": "Свои тексты",
+        "en": "Personal texts"
+      },
+      "steps": {
+        "ru": "Предложить/исправить/подтвердить границы, проверить лимиты, разобрать строку, отменить поздний запрос, restart/backup, отменить и подтвердить удаление.",
+        "en": "Propose/edit/confirm boundaries, test limits, analyze a segment, cancel a late request, restart/backup and cancel/confirm deletion."
+      }
+    },
+    {
+      "id": "A21",
+      "features": "F057,F058,F064",
+      "title": {
+        "ru": "Полнота книги",
+        "en": "Book completeness"
+      },
+      "steps": {
+        "ru": "Без сети открыть все 66 материалов, проверить авторство/лицензию/хеши и заголовки; bookmark с устаревшим адресом отфильтрован.",
+        "en": "Offline open all 66 materials, verify author/license/hashes/headings; stale bookmark is filtered."
+      }
+    },
+    {
+      "id": "A22",
+      "features": "F059–F061",
+      "title": {
+        "ru": "Поиск и чтение",
+        "en": "Search and reading"
+      },
+      "steps": {
+        "ru": "Поиск did/кітап по разделу и всей книге, точный переход, широкая таблица, 320 px, шрифт/закладка/restart.",
+        "en": "Search did/кітап in section/global scope, exact jump, wide table at 320 px and font/bookmark/restart persistence."
+      }
+    },
+    {
+      "id": "A23",
+      "features": "F062,F063",
+      "title": {
+        "ru": "Книга ↔ практика",
+        "en": "Book ↔ practice"
+      },
+      "steps": {
+        "ru": "Открыть правило текущей роли, вернуться на шаг, проверить помощь; перейти в язык из главы и обратно, объяснить ru/la.",
+        "en": "Open role rule, return to same step with assistance; practice from a language chapter and return; explain ru/la."
+      }
+    },
+    {
+      "id": "A24",
+      "features": "F065,F066",
+      "title": {
+        "ru": "Worker",
+        "en": "Worker"
+      },
+      "steps": {
+        "ru": "Mock upstream: invalid body/config/provider, chunked limit, 429/timeout/fallback; параллельные запросы не обходят quota, секретов в ответах нет.",
+        "en": "Mock invalid body/config/provider, chunked limit, 429/timeout/fallback; concurrent requests cannot bypass quota and responses expose no secrets."
+      }
+    },
+    {
+      "id": "A25",
+      "features": "F067–F069",
+      "title": {
+        "ru": "ИИ pipeline",
+        "en": "AI pipeline"
+      },
+      "steps": {
+        "ru": "Проверить полную партию и bad JSON/parts/перевод/taskId/audit/required lexeme; максимум один ремонт, недоказанные карточки не сохраняются.",
+        "en": "Test full batch and bad JSON/parts/translation/task IDs/audit/required lexeme; at most one repair and no unvalidated cards saved."
+      }
+    },
+    {
+      "id": "A26",
+      "features": "F070,F072",
+      "title": {
+        "ru": "Отмена и нагрузка",
+        "en": "Cancellation and load"
+      },
+      "steps": {
+        "ru": "Задержать каждый этап и backoff, замедлить CPU; вкладки/карточки/отмена работают, target приоритетен, import/reset отвергают поздний ответ.",
+        "en": "Delay every phase/backoff and throttle CPU; tabs/cards/cancel remain usable, target wins and import/reset reject stale responses."
+      }
+    },
+    {
+      "id": "A27",
+      "features": "F071",
+      "title": {
+        "ru": "Объяснение и цитаты",
+        "en": "Explanation and citations"
+      },
+      "steps": {
+        "ru": "Два слоя, реальные фрагменты, выдуманная/третья ссылка вызывает ремонт; неподтверждённые ссылки сняты, список источников остаётся.",
+        "en": "Two layers and actual passages; invented/third citation triggers repair; unsupported links removed and actual sources remain."
+      }
+    },
+    {
+      "id": "A28",
+      "features": "F073–F080",
+      "title": {
+        "ru": "Математика статистики",
+        "en": "Statistics mathematics"
+      },
+      "steps": {
+        "ru": "Фиксировать время: formula/нулевой профиль/0 показов/known/unknown/неверная дата; fixtures memory; границы распределений и локальная полночь.",
+        "en": "Freeze time: formula/empty profile/zero shows/known/unknown/bad date; fixture weight; distribution boundaries and local midnight."
+      }
+    },
+    {
+      "id": "A29",
+      "features": "F081–F085",
+      "title": {
+        "ru": "Backup round trip",
+        "en": "Backup round trip"
+      },
+      "steps": {
+        "ru": "Экспорт → preview → cancel → подтверждение → reload; сверить все объявленные поля, конфликты и отсутствие встроенного корпуса/закладок v1.",
+        "en": "Export → preview → cancel → commit → reload; compare declared fields, conflicts and exclusion of built-in corpus/bookmarks from v1."
+      }
+    },
+    {
+      "id": "A30",
+      "features": "F084,F086,F087",
+      "title": {
+        "ru": "Отказ и возврат",
+        "en": "Failure and recovery"
+      },
+      "steps": {
+        "ru": "10 MiB UTF-8, неизвестная версия, неверные связи; отказ записи точки ничего не меняет; два импорта сериализованы; вернуть после restart.",
+        "en": "Test 10 MiB UTF-8, unknown version and invalid links; restore-point write failure leaves data intact; serialized imports; recovery after restart."
+      }
+    },
+    {
+      "id": "A31",
+      "features": "F082,F088",
+      "title": {
+        "ru": "Миграция и сброс",
+        "en": "Migration and reset"
+      },
+      "steps": {
+        "ru": "Legacy stats/старый ключ, импорт с дублями; сброс с подтверждением сохраняет собственные материалы, переводы/ассоциации/избранное.",
+        "en": "Legacy stats/key and duplicate imports; confirmed reset preserves custom content, translations, associations and favorites."
+      }
+    },
+    {
+      "id": "A32",
+      "features": "F089–F092",
+      "title": {
+        "ru": "Визуальная приёмка",
+        "en": "Visual acceptance"
+      },
+      "steps": {
+        "ru": "Скриншоты 320/390/768/1440, 7 языков, длинные формы, клавиатура/Back/safe area/таблицы/modals; доступность и offline.",
+        "en": "Screenshots at all widths with 7 languages, long forms, keyboard/Back/safe areas/tables/modals; accessibility and offline behavior."
+      }
+    },
+    {
+      "id": "A33",
+      "features": "F093,F094",
+      "title": {
+        "ru": "Чистая установка",
+        "en": "Clean installation"
+      },
+      "steps": {
+        "ru": "В новом checkout npm ci обоих проектов, check, один web export и все UI, Worker dry-run; команды README воспроизводятся.",
+        "en": "Fresh checkout installs both lockfiles, runs checks, one web export/all UI and Worker dry-run; README commands reproduce."
+      }
+    },
+    {
+      "id": "A34",
+      "features": "F095,F096",
+      "title": {
+        "ru": "Нативный выпуск",
+        "en": "Native release"
+      },
+      "steps": {
+        "ru": "Собственный APK с правильным env/package/signature, versionCode/SHA-256; установить/обновить и проверить backup picker/share на устройстве.",
+        "en": "Owner-specific APK with correct env/package/signature, versionCode/SHA-256; install/upgrade and verify native backup picker/share."
+      }
+    },
+    {
+      "id": "A35",
+      "features": "F065–F072,F096",
+      "title": {
+        "ru": "Живой ИИ отдельно",
+        "en": "Separate live AI"
+      },
+      "steps": {
+        "ru": "При наличии своего сервиса проверить EN/KZ, отмену и ошибки; записать модель/дату/квоту и реальные ограничения, не выдавать mocks за живой прогон.",
+        "en": "With owner service test EN/KZ, cancellation and errors; record model/date/quota/limitations, never present mocks as live checks."
+      }
+    },
+    {
+      "id": "A36",
+      "features": "F094,F096",
+      "title": {
+        "ru": "Передача",
+        "en": "Handoff"
+      },
+      "steps": {
+        "ru": "Новый человек по README запускает offline и понимает подключение AI, перенос данных, обновление книги и полный статус F/A, без аккаунта автора.",
+        "en": "A new reader can launch offline and understand AI setup, recovery, book updates and all F/A statuses without author credentials."
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "unit": "React Native logical units; web CSS px",
+  "colors": {
+    "accent": "#F97316",
+    "accentDark": "#C2410C",
+    "accentPressed": "#EA580C",
+    "accentLight": "#FFF7ED",
+    "accentBorder": "#FED7AA",
+    "background": "#F8F9FA",
+    "surface": "#FFFFFF",
+    "text": "#1E293B",
+    "muted": "#64748B",
+    "border": "#E2E8F0",
+    "roles": {
+      "Predicate": "#EF4444",
+      "Subject": "#3B82F6",
+      "Object": "#F97316",
+      "Attribute": "#10B981",
+      "Attribute_Subject": "#10B981",
+      "Attribute_Object": "#10B981",
+      "Circumstance": "#8B5CF6",
+      "Adverbial": "#8B5CF6",
+      "service": "#CBD5E1"
+    }
+  },
+  "typography": {
+    "font": "system",
+    "title": 22,
+    "section": 18,
+    "body": 15,
+    "bodyLineHeight": 24,
+    "token": 18,
+    "tokenTranslation": 14,
+    "tokenRole": 10,
+    "bookDefault": 17,
+    "bookMin": 15,
+    "bookMax": 23
+  },
+  "layout": {
+    "pagePadding": 16,
+    "cardPadding": 20,
+    "cardRadius": 16,
+    "tokenPadding": 12,
+    "tokenRadius": 12,
+    "tokenMinWidth": 80,
+    "tokenMinHeight": 64,
+    "tokenBorder": 2,
+    "modalMaxHeight": "85%",
+    "wordCardMaxWidth": 420,
+    "touchTargetMin": 44,
+    "tabBaseHeight": 64,
+    "tabTopPadding": 6,
+    "centerTabDiameter": 56,
+    "centerTabBorder": 4
+  },
+  "tabOrder": [
+    "Statistics",
+    "Word Triples",
+    "Sentence Trainer",
+    "Brain Workout",
+    "Settings"
+  ],
+  "initialTab": "Sentence Trainer",
+  "roles": [
+    "Predicate",
+    "Subject",
+    "Attribute",
+    "Attribute_Subject",
+    "Object",
+    "Attribute_Object",
+    "Circumstance",
+    "Adverbial",
+    "Conjunction",
+    "Preposition",
+    "Particle",
+    "Article",
+    "Other"
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "locale": "en-GB"
+    },
+    {
+      "code": "it",
+      "label": "Italiano",
+      "locale": "it-IT"
+    },
+    {
+      "code": "es",
+      "label": "Español",
+      "locale": "es-ES"
+    },
+    {
+      "code": "de",
+      "label": "Deutsch",
+      "locale": "de-DE"
+    },
+    {
+      "code": "fr",
+      "label": "Français",
+      "locale": "fr-FR"
+    },
+    {
+      "code": "kz",
+      "label": "Қазақша",
+      "locale": "kk-KZ"
+    },
+    {
+      "code": "la",
+      "label": "Latin",
+      "locale": "la"
+    }
+  ],
+  "responsiveWidths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "provenance": "Exact brand/role/tab/token values from source; common page/card/touch values are the normative reconstruction baseline where screens differ."
+}

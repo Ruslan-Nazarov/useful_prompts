@@ -1,0 +1,21 @@
+name = "your-language-ai-proxy"
+main = "src/worker.ts"
+compatibility_date = "2026-10-21"
+
+[vars]
+DEFAULT_PROVIDER = "gemini"
+GEMINI_MODEL = "CHOOSE_SUPPORTED_MODEL"
+PER_INSTALL_HOURLY = "40"
+PER_INSTALL_DAILY = "200"
+GLOBAL_DAILY = "1500"
+
+[[durable_objects.bindings]]
+name = "QUOTA"
+class_name = "QuotaLimiter"
+
+[[migrations]]
+tag = "v1-quota"
+new_sqlite_classes = ["QuotaLimiter"]
+
+# Put GEMINI_API_KEY into a Worker secret, never here.
+# Add alternative model vars/secrets only when their adapters are implemented.

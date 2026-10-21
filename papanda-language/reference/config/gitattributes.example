@@ -1,0 +1,6 @@
+# Adopt as .gitattributes in the implemented project to keep generated text stable.
+*.json text eol=lf
+*.md text eol=lf
+*.cjs text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf

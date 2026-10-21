@@ -1,0 +1,322 @@
+{
+  "notice": "All progress, dates, text titles and associations are fictional test data. Never auto-import into a real profile.",
+  "clock": "2026-10-21T12:00:00.000Z",
+  "backup": {
+    "app": "papanda",
+    "version": 1,
+    "exportedAt": "2026-10-21T12:00:00.000Z",
+    "data": {
+      "structureAttempts": [],
+      "readingTexts": [
+        {
+          "id": "fixture-text",
+          "title": "Учебный пример",
+          "language": "English",
+          "segments": [
+            "She did not come.",
+            "She reads a book."
+          ],
+          "position": 0,
+          "cards": {
+            "0": {
+              "id": "fixture-negative-en",
+              "language": "English",
+              "sentence": "She did not come.",
+              "literalTranslation": "Она не пришла.",
+              "source": "manual",
+              "words": [
+                {
+                  "text": "She",
+                  "role": "Subject",
+                  "translation": "она",
+                  "label": "Subject",
+                  "parts": [
+                    "She"
+                  ],
+                  "dictionary_form": "she",
+                  "dictionary_word": null,
+                  "is_in_my_dict": false,
+                  "clauseIndex": 0
+                },
+                {
+                  "text": "did",
+                  "role": "Predicate",
+                  "translation": "вспомогательный глагол прошедшего времени",
+                  "label": "Predicate",
+                  "parts": [
+                    "did"
+                  ],
+                  "dictionary_form": "do",
+                  "dictionary_word": null,
+                  "is_in_my_dict": false,
+                  "clauseIndex": 0
+                },
+                {
+                  "text": "not",
+                  "role": "Predicate",
+                  "translation": "отрицание",
+                  "label": "Predicate",
+                  "parts": [
+                    "not"
+                  ],
+                  "dictionary_form": "not",
+                  "dictionary_word": null,
+                  "is_in_my_dict": false,
+                  "clauseIndex": 0
+                },
+                {
+                  "text": "come",
+                  "role": "Predicate",
+                  "translation": "пришла",
+                  "label": "Predicate",
+                  "parts": [
+                    "come"
+                  ],
+                  "dictionary_form": "come",
+                  "dictionary_word": null,
+                  "is_in_my_dict": false,
+                  "clauseIndex": 0
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "userWordProgress": {
+        "fixture:book": {
+          "count": 80,
+          "show_stats": {
+            "en": 80
+          },
+          "knowledge_stats": {
+            "en": true
+          },
+          "last_shown": "2026-10-19T12:00:00.000Z",
+          "last_shown_by_lang": {
+            "en": "2026-10-19T12:00:00.000Z"
+          },
+          "personal_association": "Вымышленная ассоциация: книга на столе.",
+          "is_favorite": true
+        }
+      },
+      "customWords": [
+        {
+          "eng": "fixture:book",
+          "word": "book",
+          "ru": "книга",
+          "source_language": "en",
+          "translations": {
+            "en": "book",
+            "it": "libro",
+            "es": "libro",
+            "de": "Buch",
+            "fr": "livre",
+            "kz": "кітап",
+            "la": "liber"
+          },
+          "count": 0,
+          "is_learned": 0
+        },
+        {
+          "eng": "fixture:read",
+          "word": "read",
+          "ru": "читать",
+          "source_language": "en",
+          "translations": {
+            "en": "read",
+            "it": "leggere",
+            "es": "leer",
+            "de": "lesen",
+            "fr": "lire",
+            "kz": "оқу",
+            "la": "legere"
+          },
+          "count": 0,
+          "is_learned": 0
+        }
+      ],
+      "customSentences": [
+        {
+          "id": "fixture-negative-en",
+          "language": "English",
+          "sentence": "She did not come.",
+          "literalTranslation": "Она не пришла.",
+          "source": "manual",
+          "words": [
+            {
+              "text": "She",
+              "role": "Subject",
+              "translation": "она",
+              "label": "Subject",
+              "parts": [
+                "She"
+              ],
+              "dictionary_form": "she",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            },
+            {
+              "text": "did",
+              "role": "Predicate",
+              "translation": "вспомогательный глагол прошедшего времени",
+              "label": "Predicate",
+              "parts": [
+                "did"
+              ],
+              "dictionary_form": "do",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            },
+            {
+              "text": "not",
+              "role": "Predicate",
+              "translation": "отрицание",
+              "label": "Predicate",
+              "parts": [
+                "not"
+              ],
+              "dictionary_form": "not",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            },
+            {
+              "text": "come",
+              "role": "Predicate",
+              "translation": "пришла",
+              "label": "Predicate",
+              "parts": [
+                "come"
+              ],
+              "dictionary_form": "come",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            }
+          ]
+        },
+        {
+          "id": "fixture-negative-kz",
+          "language": "Қазақша",
+          "sentence": "Қыз ұйықтаған жоқ.",
+          "literalTranslation": "Девочка не спала.",
+          "source": "manual",
+          "words": [
+            {
+              "text": "Қыз",
+              "role": "Subject",
+              "translation": "девочка",
+              "label": "Subject",
+              "parts": [
+                "Қыз"
+              ],
+              "dictionary_form": "қыз",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            },
+            {
+              "text": "ұйықтаған",
+              "role": "Predicate",
+              "translation": "часть отрицательного сказуемого «не спала»",
+              "label": "Predicate",
+              "parts": [
+                "ұйықтаған"
+              ],
+              "dictionary_form": "ұйықтау",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            },
+            {
+              "text": "жоқ",
+              "role": "Predicate",
+              "translation": "отрицательная часть сказуемого",
+              "label": "Predicate",
+              "parts": [
+                "жоқ"
+              ],
+              "dictionary_form": "жоқ",
+              "dictionary_word": null,
+              "is_in_my_dict": false,
+              "clauseIndex": 0
+            }
+          ]
+        }
+      ],
+      "generatedSentences": [],
+      "activeLanguages": [
+        "en",
+        "kz",
+        "it"
+      ],
+      "dailyShows": {
+        "2026-10-19": 80
+      },
+      "workoutSnapshots": [
+        {
+          "date": "2026-10-19",
+          "total": 10,
+          "correct": 7
+        },
+        {
+          "date": "2026-10-19",
+          "total": 5,
+          "correct": 4
+        }
+      ],
+      "imwSnapshots": [],
+      "wordTourSize": 10,
+      "workoutWordCount": 10,
+      "workoutLearnedWordCount": 5,
+      "workoutFavoritesOnly": false,
+      "hasSeenSnoozeHint": false
+    }
+  },
+  "cases": {
+    "negativePredicateIndices": [
+      1,
+      2,
+      3
+    ],
+    "kazakhPredicateIndices": [
+      1,
+      2
+    ],
+    "sameDayWorkoutExpected": {
+      "total": 15,
+      "correct": 11,
+      "percentage": 73.33333333333333
+    },
+    "memoryAtClockExpected": 0.9841471370421498,
+    "readingDeletionRequiresConfirmation": true,
+    "invalidExamples": [
+      {
+        "name": "parts mismatch",
+        "patch": {
+          "parts": [
+            "wrong"
+          ]
+        }
+      },
+      {
+        "name": "unknown role",
+        "patch": {
+          "role": "Noun"
+        }
+      },
+      {
+        "name": "negative clause",
+        "patch": {
+          "clauseIndex": -1
+        }
+      },
+      {
+        "name": "wrong text segment",
+        "description": "Replace readingTexts[0].cards[0].sentence with a different source; reject before mutation."
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve the assignment's manifest hashes across platforms and Git settings.
+papanda-language/** -text

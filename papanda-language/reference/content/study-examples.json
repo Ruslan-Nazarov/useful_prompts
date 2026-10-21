@@ -1,0 +1,4077 @@
+{
+  "chains": {
+    "en": [
+      {
+        "id": "study_en_0",
+        "language": "English",
+        "sentence": "The boy reads.",
+        "words": [
+          {
+            "text": "The",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "the",
+            "label": "Article",
+            "parts": [
+              "The"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "boy",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "boy",
+            "label": "Subject",
+            "parts": [
+              "boy"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "reads",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "read",
+            "label": "Predicate",
+            "parts": [
+              "reads"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Reads — форма read для третьего лица единственного числа в настоящем времени; окончание -s согласуется с boy.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "reads"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "boy"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_en_1",
+        "language": "English",
+        "sentence": "The little boy reads.",
+        "words": [
+          {
+            "text": "The",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "the",
+            "label": "Article",
+            "parts": [
+              "The"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "little",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "little",
+            "label": "Attribute_Subject",
+            "parts": [
+              "little"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "boy",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "boy",
+            "label": "Subject",
+            "parts": [
+              "boy"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "reads",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "read",
+            "label": "Predicate",
+            "parts": [
+              "reads"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Reads — форма read для третьего лица единственного числа в настоящем времени; окончание -s согласуется с boy.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "reads"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "boy"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "little"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_en_2",
+        "language": "English",
+        "sentence": "The little boy reads a book.",
+        "words": [
+          {
+            "text": "The",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "the",
+            "label": "Article",
+            "parts": [
+              "The"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "little",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "little",
+            "label": "Attribute_Subject",
+            "parts": [
+              "little"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "boy",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "boy",
+            "label": "Subject",
+            "parts": [
+              "boy"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "reads",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "read",
+            "label": "Predicate",
+            "parts": [
+              "reads"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "a",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "a",
+            "label": "Article",
+            "parts": [
+              "a"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "book",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "book",
+            "label": "Object",
+            "parts": [
+              "book"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Reads — форма read для третьего лица единственного числа в настоящем времени; окончание -s согласуется с boy.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "reads"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Book стоит после reads и обозначает то, что читают. Артикль a относится к существительному book.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "book"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "boy"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "little"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_en_3",
+        "language": "English",
+        "sentence": "The little boy reads a book here.",
+        "words": [
+          {
+            "text": "The",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "the",
+            "label": "Article",
+            "parts": [
+              "The"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "little",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "little",
+            "label": "Attribute_Subject",
+            "parts": [
+              "little"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "boy",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "boy",
+            "label": "Subject",
+            "parts": [
+              "boy"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "reads",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "read",
+            "label": "Predicate",
+            "parts": [
+              "reads"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "a",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "a",
+            "label": "Article",
+            "parts": [
+              "a"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "book",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "book",
+            "label": "Object",
+            "parts": [
+              "book"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "here",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "here",
+            "label": "Circumstance",
+            "parts": [
+              "here"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Reads — форма read для третьего лица единственного числа в настоящем времени; окончание -s согласуется с boy.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "reads"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Book стоит после reads и обозначает то, что читают. Артикль a относится к существительному book.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "book"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "boy"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "little"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 6,
+                "form": "here"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ],
+    "it": [
+      {
+        "id": "study_it_0",
+        "language": "Italiano",
+        "sentence": "Il bambino legge.",
+        "words": [
+          {
+            "text": "Il",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "il",
+            "label": "Article",
+            "parts": [
+              "Il"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "bambino",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "bambino",
+            "label": "Subject",
+            "parts": [
+              "bambino"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legge",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leggere",
+            "label": "Predicate",
+            "parts": [
+              "legge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legge — личная форма leggere: он читает. Ищем всё слово, а не предполагаем, что его конец всегда можно отделить как правильное окончание.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "legge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "bambino"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_it_1",
+        "language": "Italiano",
+        "sentence": "Il bambino piccolo legge.",
+        "words": [
+          {
+            "text": "Il",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "il",
+            "label": "Article",
+            "parts": [
+              "Il"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "bambino",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "bambino",
+            "label": "Subject",
+            "parts": [
+              "bambino"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "piccolo",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "piccolo",
+            "label": "Attribute_Subject",
+            "parts": [
+              "piccolo"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legge",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leggere",
+            "label": "Predicate",
+            "parts": [
+              "legge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legge — личная форма leggere: он читает. Ищем всё слово, а не предполагаем, что его конец всегда можно отделить как правильное окончание.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "legge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "bambino"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "piccolo"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_it_2",
+        "language": "Italiano",
+        "sentence": "Il bambino piccolo legge un libro.",
+        "words": [
+          {
+            "text": "Il",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "il",
+            "label": "Article",
+            "parts": [
+              "Il"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "bambino",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "bambino",
+            "label": "Subject",
+            "parts": [
+              "bambino"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "piccolo",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "piccolo",
+            "label": "Attribute_Subject",
+            "parts": [
+              "piccolo"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legge",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leggere",
+            "label": "Predicate",
+            "parts": [
+              "legge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "un",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "un",
+            "label": "Article",
+            "parts": [
+              "un"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "libro",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "libro",
+            "label": "Object",
+            "parts": [
+              "libro"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legge — личная форма leggere: он читает. Ищем всё слово, а не предполагаем, что его конец всегда можно отделить как правильное окончание.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "legge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Libro означает предмет чтения и стоит после legge; un — его артикль. Падежного окончания, аналогичного русскому «книгу», здесь нет.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "libro"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "bambino"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "piccolo"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_it_3",
+        "language": "Italiano",
+        "sentence": "Il bambino piccolo legge un libro qui.",
+        "words": [
+          {
+            "text": "Il",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "il",
+            "label": "Article",
+            "parts": [
+              "Il"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "bambino",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "bambino",
+            "label": "Subject",
+            "parts": [
+              "bambino"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "piccolo",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "piccolo",
+            "label": "Attribute_Subject",
+            "parts": [
+              "piccolo"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legge",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leggere",
+            "label": "Predicate",
+            "parts": [
+              "legge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "un",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "un",
+            "label": "Article",
+            "parts": [
+              "un"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "libro",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "libro",
+            "label": "Object",
+            "parts": [
+              "libro"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "qui",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "qui",
+            "label": "Circumstance",
+            "parts": [
+              "qui"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legge — личная форма leggere: он читает. Ищем всё слово, а не предполагаем, что его конец всегда можно отделить как правильное окончание.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "legge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Libro означает предмет чтения и стоит после legge; un — его артикль. Падежного окончания, аналогичного русскому «книгу», здесь нет.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "libro"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "bambino"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "piccolo"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 6,
+                "form": "qui"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ],
+    "es": [
+      {
+        "id": "study_es_0",
+        "language": "Español",
+        "sentence": "El niño lee.",
+        "words": [
+          {
+            "text": "El",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "el",
+            "label": "Article",
+            "parts": [
+              "El"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "niño",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "niño",
+            "label": "Subject",
+            "parts": [
+              "niño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lee",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leer",
+            "label": "Predicate",
+            "parts": [
+              "lee"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lee — форма leer для третьего лица единственного числа настоящего времени. Здесь она сообщает, что делает niño.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "lee"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "niño"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_es_1",
+        "language": "Español",
+        "sentence": "El niño pequeño lee.",
+        "words": [
+          {
+            "text": "El",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "el",
+            "label": "Article",
+            "parts": [
+              "El"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "niño",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "niño",
+            "label": "Subject",
+            "parts": [
+              "niño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "pequeño",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "pequeño",
+            "label": "Attribute_Subject",
+            "parts": [
+              "pequeño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lee",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leer",
+            "label": "Predicate",
+            "parts": [
+              "lee"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lee — форма leer для третьего лица единственного числа настоящего времени. Здесь она сообщает, что делает niño.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "lee"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "niño"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "pequeño"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_es_2",
+        "language": "Español",
+        "sentence": "El niño pequeño lee un libro.",
+        "words": [
+          {
+            "text": "El",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "el",
+            "label": "Article",
+            "parts": [
+              "El"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "niño",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "niño",
+            "label": "Subject",
+            "parts": [
+              "niño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "pequeño",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "pequeño",
+            "label": "Attribute_Subject",
+            "parts": [
+              "pequeño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lee",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leer",
+            "label": "Predicate",
+            "parts": [
+              "lee"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "un",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "un",
+            "label": "Article",
+            "parts": [
+              "un"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "libro",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "libro",
+            "label": "Object",
+            "parts": [
+              "libro"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lee — форма leer для третьего лица единственного числа настоящего времени. Здесь она сообщает, что делает niño.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "lee"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Libro — то, что читают; оно следует за lee. Un относится к libro и не является частью сказуемого.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "libro"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "niño"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "pequeño"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_es_3",
+        "language": "Español",
+        "sentence": "El niño pequeño lee un libro aquí.",
+        "words": [
+          {
+            "text": "El",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "el",
+            "label": "Article",
+            "parts": [
+              "El"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "niño",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "niño",
+            "label": "Subject",
+            "parts": [
+              "niño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "pequeño",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "pequeño",
+            "label": "Attribute_Subject",
+            "parts": [
+              "pequeño"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lee",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "leer",
+            "label": "Predicate",
+            "parts": [
+              "lee"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "un",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "un",
+            "label": "Article",
+            "parts": [
+              "un"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "libro",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "libro",
+            "label": "Object",
+            "parts": [
+              "libro"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "aquí",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "aquí",
+            "label": "Circumstance",
+            "parts": [
+              "aquí"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lee — форма leer для третьего лица единственного числа настоящего времени. Здесь она сообщает, что делает niño.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "lee"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Libro — то, что читают; оно следует за lee. Un относится к libro и не является частью сказуемого.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "libro"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "niño"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "pequeño"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 6,
+                "form": "aquí"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ],
+    "de": [
+      {
+        "id": "study_de_0",
+        "language": "Deutsch",
+        "sentence": "Der Junge liest.",
+        "words": [
+          {
+            "text": "Der",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "der",
+            "label": "Article",
+            "parts": [
+              "Der"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "Junge",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "junge",
+            "label": "Subject",
+            "parts": [
+              "Junge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "liest",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lesen",
+            "label": "Predicate",
+            "parts": [
+              "liest"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Liest — личная форма lesen. В этом утверждении перед ней одна группа: Der (kleine) Junge. Второе место означает вторую группу, не обязательно второе слово.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "liest"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "Junge"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_de_1",
+        "language": "Deutsch",
+        "sentence": "Der kleine Junge liest.",
+        "words": [
+          {
+            "text": "Der",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "der",
+            "label": "Article",
+            "parts": [
+              "Der"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "kleine",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "klein",
+            "label": "Attribute_Subject",
+            "parts": [
+              "kleine"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "Junge",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "junge",
+            "label": "Subject",
+            "parts": [
+              "Junge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "liest",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lesen",
+            "label": "Predicate",
+            "parts": [
+              "liest"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Liest — личная форма lesen. В этом утверждении перед ней одна группа: Der (kleine) Junge. Второе место означает вторую группу, не обязательно второе слово.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "liest"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "Junge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "kleine"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_de_2",
+        "language": "Deutsch",
+        "sentence": "Der kleine Junge liest ein Buch.",
+        "words": [
+          {
+            "text": "Der",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "der",
+            "label": "Article",
+            "parts": [
+              "Der"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "kleine",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "klein",
+            "label": "Attribute_Subject",
+            "parts": [
+              "kleine"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "Junge",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "junge",
+            "label": "Subject",
+            "parts": [
+              "Junge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "liest",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lesen",
+            "label": "Predicate",
+            "parts": [
+              "liest"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "ein",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "ein",
+            "label": "Article",
+            "parts": [
+              "ein"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "Buch",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "buch",
+            "label": "Object",
+            "parts": [
+              "Buch"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Liest — личная форма lesen. В этом утверждении перед ней одна группа: Der (kleine) Junge. Второе место означает вторую группу, не обязательно второе слово.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "liest"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Buch — то, что читают. Ein Buch здесь дополнение; у среднего рода форма артикля ein одинакова в именительном и винительном падежах, поэтому одного артикля недостаточно.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "Buch"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "Junge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "kleine"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_de_3",
+        "language": "Deutsch",
+        "sentence": "Der kleine Junge liest hier ein Buch.",
+        "words": [
+          {
+            "text": "Der",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "der",
+            "label": "Article",
+            "parts": [
+              "Der"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "kleine",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "klein",
+            "label": "Attribute_Subject",
+            "parts": [
+              "kleine"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "Junge",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "junge",
+            "label": "Subject",
+            "parts": [
+              "Junge"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "liest",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lesen",
+            "label": "Predicate",
+            "parts": [
+              "liest"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "hier",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "hier",
+            "label": "Circumstance",
+            "parts": [
+              "hier"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "ein",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "ein",
+            "label": "Article",
+            "parts": [
+              "ein"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "Buch",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "buch",
+            "label": "Object",
+            "parts": [
+              "Buch"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Liest — личная форма lesen. В этом утверждении перед ней одна группа: Der (kleine) Junge. Второе место означает вторую группу, не обязательно второе слово.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "liest"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Buch — то, что читают. Ein Buch здесь дополнение; у среднего рода форма артикля ein одинакова в именительном и винительном падежах, поэтому одного артикля недостаточно.",
+            "evidence": [
+              {
+                "tokenIndex": 6,
+                "form": "Buch"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "Junge"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "kleine"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 4,
+                "form": "hier"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "id": "study_fr_0",
+        "language": "Français",
+        "sentence": "Le garçon lit.",
+        "words": [
+          {
+            "text": "Le",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "le",
+            "label": "Article",
+            "parts": [
+              "Le"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "garçon",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "garçon",
+            "label": "Subject",
+            "parts": [
+              "garçon"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lire",
+            "label": "Predicate",
+            "parts": [
+              "lit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lit — личная форма lire. В этом предложении действие связано с garçon; форма неправильная, её не следует разбирать по образцу обычных глаголов на -er.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "lit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "garçon"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_fr_1",
+        "language": "Français",
+        "sentence": "Le petit garçon lit.",
+        "words": [
+          {
+            "text": "Le",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "le",
+            "label": "Article",
+            "parts": [
+              "Le"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "petit",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "petit",
+            "label": "Attribute_Subject",
+            "parts": [
+              "petit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "garçon",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "garçon",
+            "label": "Subject",
+            "parts": [
+              "garçon"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lire",
+            "label": "Predicate",
+            "parts": [
+              "lit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lit — личная форма lire. В этом предложении действие связано с garçon; форма неправильная, её не следует разбирать по образцу обычных глаголов на -er.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "lit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "garçon"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "petit"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_fr_2",
+        "language": "Français",
+        "sentence": "Le petit garçon lit un livre.",
+        "words": [
+          {
+            "text": "Le",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "le",
+            "label": "Article",
+            "parts": [
+              "Le"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "petit",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "petit",
+            "label": "Attribute_Subject",
+            "parts": [
+              "petit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "garçon",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "garçon",
+            "label": "Subject",
+            "parts": [
+              "garçon"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lire",
+            "label": "Predicate",
+            "parts": [
+              "lit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "un",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "un",
+            "label": "Article",
+            "parts": [
+              "un"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "livre",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "livre",
+            "label": "Object",
+            "parts": [
+              "livre"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lit — личная форма lire. В этом предложении действие связано с garçon; форма неправильная, её не следует разбирать по образцу обычных глаголов на -er.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "lit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Livre обозначает предмет чтения и следует за lit. Un — артикль существительного, а не показатель действующего лица.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "livre"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "garçon"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "petit"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_fr_3",
+        "language": "Français",
+        "sentence": "Le petit garçon lit un livre ici.",
+        "words": [
+          {
+            "text": "Le",
+            "role": "Article",
+            "translation": "определённый артикль",
+            "dictionary_form": "le",
+            "label": "Article",
+            "parts": [
+              "Le"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "petit",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "petit",
+            "label": "Attribute_Subject",
+            "parts": [
+              "petit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "garçon",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "garçon",
+            "label": "Subject",
+            "parts": [
+              "garçon"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "lit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "lire",
+            "label": "Predicate",
+            "parts": [
+              "lit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "un",
+            "role": "Article",
+            "translation": "неопределённый артикль",
+            "dictionary_form": "un",
+            "label": "Article",
+            "parts": [
+              "un"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "livre",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "livre",
+            "label": "Object",
+            "parts": [
+              "livre"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "ici",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "ici",
+            "label": "Circumstance",
+            "parts": [
+              "ici"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Lit — личная форма lire. В этом предложении действие связано с garçon; форма неправильная, её не следует разбирать по образцу обычных глаголов на -er.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "lit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Livre обозначает предмет чтения и следует за lit. Un — артикль существительного, а не показатель действующего лица.",
+            "evidence": [
+              {
+                "tokenIndex": 5,
+                "form": "livre"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "garçon"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "petit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 6,
+                "form": "ici"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ],
+    "kz": [
+      {
+        "id": "study_kz_0",
+        "language": "Қазақша",
+        "sentence": "Бала оқиды.",
+        "words": [
+          {
+            "text": "Бала",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "бала",
+            "label": "Subject",
+            "parts": [
+              "Бала"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "оқиды",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "оқу",
+            "label": "Predicate",
+            "parts": [
+              "оқиды"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Оқиды — личная форма оқу; в этом нейтральном предложении сказуемое завершает высказывание. Одного последнего места недостаточно: проверяем значение и форму.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "оқиды"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Бала"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_kz_1",
+        "language": "Қазақша",
+        "sentence": "Кішкентай бала оқиды.",
+        "words": [
+          {
+            "text": "Кішкентай",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "кішкентай",
+            "label": "Attribute_Subject",
+            "parts": [
+              "Кішкентай"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "бала",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "бала",
+            "label": "Subject",
+            "parts": [
+              "бала"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "оқиды",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "оқу",
+            "label": "Predicate",
+            "parts": [
+              "оқиды"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Оқиды — личная форма оқу; в этом нейтральном предложении сказуемое завершает высказывание. Одного последнего места недостаточно: проверяем значение и форму.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "оқиды"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "бала"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Кішкентай"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_kz_2",
+        "language": "Қазақша",
+        "sentence": "Кішкентай бала кітап оқиды.",
+        "words": [
+          {
+            "text": "Кішкентай",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "кішкентай",
+            "label": "Attribute_Subject",
+            "parts": [
+              "Кішкентай"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "бала",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "бала",
+            "label": "Subject",
+            "parts": [
+              "бала"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "кітап",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "кітап",
+            "label": "Object",
+            "parts": [
+              "кітап"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "оқиды",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "оқу",
+            "label": "Predicate",
+            "parts": [
+              "оқиды"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Оқиды — личная форма оқу; в этом нейтральном предложении сказуемое завершает высказывание. Одного последнего места недостаточно: проверяем значение и форму.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "оқиды"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Кітап — неопределённый предмет чтения без окончания винительного падежа. Здесь он стоит непосредственно перед оқиды; отсутствие окончания не делает его подлежащим.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "кітап"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "бала"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Кішкентай"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_kz_3",
+        "language": "Қазақша",
+        "sentence": "Кішкентай бала мұнда кітап оқиды.",
+        "words": [
+          {
+            "text": "Кішкентай",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "кішкентай",
+            "label": "Attribute_Subject",
+            "parts": [
+              "Кішкентай"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "бала",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "бала",
+            "label": "Subject",
+            "parts": [
+              "бала"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "мұнда",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "мұнда",
+            "label": "Circumstance",
+            "parts": [
+              "мұнда"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "кітап",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "кітап",
+            "label": "Object",
+            "parts": [
+              "кітап"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "оқиды",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "оқу",
+            "label": "Predicate",
+            "parts": [
+              "оқиды"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Оқиды — личная форма оқу; в этом нейтральном предложении сказуемое завершает высказывание. Одного последнего места недостаточно: проверяем значение и форму.",
+            "evidence": [
+              {
+                "tokenIndex": 4,
+                "form": "оқиды"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Кітап — неопределённый предмет чтения без окончания винительного падежа. Здесь он стоит непосредственно перед оқиды; отсутствие окончания не делает его подлежащим.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "кітап"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "бала"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Кішкентай"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "мұнда"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ],
+    "la": [
+      {
+        "id": "study_la_0",
+        "language": "Latin",
+        "sentence": "Puer legit.",
+        "words": [
+          {
+            "text": "Puer",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "puer",
+            "label": "Subject",
+            "parts": [
+              "Puer"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "legere",
+            "label": "Predicate",
+            "parts": [
+              "legit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legit здесь читается как настоящее время «он читает»; в письме без знака долготы форма может быть неоднозначна по времени. В этом учебном примере задано настоящее.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "legit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Puer"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_la_1",
+        "language": "Latin",
+        "sentence": "Puer parvus legit.",
+        "words": [
+          {
+            "text": "Puer",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "puer",
+            "label": "Subject",
+            "parts": [
+              "Puer"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "parvus",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "parvus",
+            "label": "Attribute_Subject",
+            "parts": [
+              "parvus"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "legere",
+            "label": "Predicate",
+            "parts": [
+              "legit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legit здесь читается как настоящее время «он читает»; в письме без знака долготы форма может быть неоднозначна по времени. В этом учебном примере задано настоящее.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "legit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Puer"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "parvus"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_la_2",
+        "language": "Latin",
+        "sentence": "Puer parvus librum legit.",
+        "words": [
+          {
+            "text": "Puer",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "puer",
+            "label": "Subject",
+            "parts": [
+              "Puer"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "parvus",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "parvus",
+            "label": "Attribute_Subject",
+            "parts": [
+              "parvus"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "librum",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "liber",
+            "label": "Object",
+            "parts": [
+              "librum"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "legere",
+            "label": "Predicate",
+            "parts": [
+              "legit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legit здесь читается как настоящее время «он читает»; в письме без знака долготы форма может быть неоднозначна по времени. В этом учебном примере задано настоящее.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "legit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Librum — винительный падеж единственного числа liber. Окончание -um помогает узнать дополнение, даже когда оно находится перед глаголом.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "librum"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Puer"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "parvus"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      },
+      {
+        "id": "study_la_3",
+        "language": "Latin",
+        "sentence": "Puer parvus hic librum legit.",
+        "words": [
+          {
+            "text": "Puer",
+            "role": "Subject",
+            "translation": "мальчик",
+            "dictionary_form": "puer",
+            "label": "Subject",
+            "parts": [
+              "Puer"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "parvus",
+            "role": "Attribute_Subject",
+            "translation": "маленький",
+            "dictionary_form": "parvus",
+            "label": "Attribute_Subject",
+            "parts": [
+              "parvus"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "hic",
+            "role": "Circumstance",
+            "translation": "здесь",
+            "dictionary_form": "hic",
+            "label": "Circumstance",
+            "parts": [
+              "hic"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "librum",
+            "role": "Object",
+            "translation": "книгу",
+            "dictionary_form": "liber",
+            "label": "Object",
+            "parts": [
+              "librum"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          },
+          {
+            "text": "legit",
+            "role": "Predicate",
+            "translation": "читает",
+            "dictionary_form": "legere",
+            "label": "Predicate",
+            "parts": [
+              "legit"
+            ],
+            "is_in_my_dict": false,
+            "clauseIndex": 0
+          }
+        ],
+        "source": "seed",
+        "literalTranslation": "Маленький мальчик читает книгу здесь.",
+        "markerHints": [
+          {
+            "role": "Predicate",
+            "clauseIndex": 0,
+            "explanation": "Legit здесь читается как настоящее время «он читает»; в письме без знака долготы форма может быть неоднозначна по времени. В этом учебном примере задано настоящее.",
+            "evidence": [
+              {
+                "tokenIndex": 4,
+                "form": "legit"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Object",
+            "clauseIndex": 0,
+            "explanation": "Librum — винительный падеж единственного числа liber. Окончание -um помогает узнать дополнение, даже когда оно находится перед глаголом.",
+            "evidence": [
+              {
+                "tokenIndex": 3,
+                "form": "librum"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Subject",
+            "clauseIndex": 0,
+            "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+            "evidence": [
+              {
+                "tokenIndex": 0,
+                "form": "Puer"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Attribute_Subject",
+            "clauseIndex": 0,
+            "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 1,
+                "form": "parvus"
+              }
+            ],
+            "source": "authored"
+          },
+          {
+            "role": "Circumstance",
+            "clauseIndex": 0,
+            "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+            "evidence": [
+              {
+                "tokenIndex": 2,
+                "form": "hic"
+              }
+            ],
+            "source": "authored"
+          }
+        ]
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "id": "study_en_3",
+      "language": "English",
+      "sentence": "The little boy reads a book here.",
+      "words": [
+        {
+          "text": "The",
+          "role": "Article",
+          "translation": "определённый артикль",
+          "dictionary_form": "the",
+          "label": "Article",
+          "parts": [
+            "The"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "little",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "little",
+          "label": "Attribute_Subject",
+          "parts": [
+            "little"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "boy",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "boy",
+          "label": "Subject",
+          "parts": [
+            "boy"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "reads",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "read",
+          "label": "Predicate",
+          "parts": [
+            "reads"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "a",
+          "role": "Article",
+          "translation": "неопределённый артикль",
+          "dictionary_form": "a",
+          "label": "Article",
+          "parts": [
+            "a"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "book",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "book",
+          "label": "Object",
+          "parts": [
+            "book"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "here",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "here",
+          "label": "Circumstance",
+          "parts": [
+            "here"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Reads — форма read для третьего лица единственного числа в настоящем времени; окончание -s согласуется с boy.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "reads"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Book стоит после reads и обозначает то, что читают. Артикль a относится к существительному book.",
+          "evidence": [
+            {
+              "tokenIndex": 5,
+              "form": "book"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "boy"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "little"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 6,
+              "form": "here"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    },
+    {
+      "id": "study_it_3",
+      "language": "Italiano",
+      "sentence": "Il bambino piccolo legge un libro qui.",
+      "words": [
+        {
+          "text": "Il",
+          "role": "Article",
+          "translation": "определённый артикль",
+          "dictionary_form": "il",
+          "label": "Article",
+          "parts": [
+            "Il"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "bambino",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "bambino",
+          "label": "Subject",
+          "parts": [
+            "bambino"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "piccolo",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "piccolo",
+          "label": "Attribute_Subject",
+          "parts": [
+            "piccolo"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "legge",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "leggere",
+          "label": "Predicate",
+          "parts": [
+            "legge"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "un",
+          "role": "Article",
+          "translation": "неопределённый артикль",
+          "dictionary_form": "un",
+          "label": "Article",
+          "parts": [
+            "un"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "libro",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "libro",
+          "label": "Object",
+          "parts": [
+            "libro"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "qui",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "qui",
+          "label": "Circumstance",
+          "parts": [
+            "qui"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Legge — личная форма leggere: он читает. Ищем всё слово, а не предполагаем, что его конец всегда можно отделить как правильное окончание.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "legge"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Libro означает предмет чтения и стоит после legge; un — его артикль. Падежного окончания, аналогичного русскому «книгу», здесь нет.",
+          "evidence": [
+            {
+              "tokenIndex": 5,
+              "form": "libro"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "bambino"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "piccolo"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 6,
+              "form": "qui"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    },
+    {
+      "id": "study_es_3",
+      "language": "Español",
+      "sentence": "El niño pequeño lee un libro aquí.",
+      "words": [
+        {
+          "text": "El",
+          "role": "Article",
+          "translation": "определённый артикль",
+          "dictionary_form": "el",
+          "label": "Article",
+          "parts": [
+            "El"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "niño",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "niño",
+          "label": "Subject",
+          "parts": [
+            "niño"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "pequeño",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "pequeño",
+          "label": "Attribute_Subject",
+          "parts": [
+            "pequeño"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "lee",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "leer",
+          "label": "Predicate",
+          "parts": [
+            "lee"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "un",
+          "role": "Article",
+          "translation": "неопределённый артикль",
+          "dictionary_form": "un",
+          "label": "Article",
+          "parts": [
+            "un"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "libro",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "libro",
+          "label": "Object",
+          "parts": [
+            "libro"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "aquí",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "aquí",
+          "label": "Circumstance",
+          "parts": [
+            "aquí"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Lee — форма leer для третьего лица единственного числа настоящего времени. Здесь она сообщает, что делает niño.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "lee"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Libro — то, что читают; оно следует за lee. Un относится к libro и не является частью сказуемого.",
+          "evidence": [
+            {
+              "tokenIndex": 5,
+              "form": "libro"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "niño"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "pequeño"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 6,
+              "form": "aquí"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    },
+    {
+      "id": "study_de_3",
+      "language": "Deutsch",
+      "sentence": "Der kleine Junge liest hier ein Buch.",
+      "words": [
+        {
+          "text": "Der",
+          "role": "Article",
+          "translation": "определённый артикль",
+          "dictionary_form": "der",
+          "label": "Article",
+          "parts": [
+            "Der"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "kleine",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "klein",
+          "label": "Attribute_Subject",
+          "parts": [
+            "kleine"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "Junge",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "junge",
+          "label": "Subject",
+          "parts": [
+            "Junge"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "liest",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "lesen",
+          "label": "Predicate",
+          "parts": [
+            "liest"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "hier",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "hier",
+          "label": "Circumstance",
+          "parts": [
+            "hier"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "ein",
+          "role": "Article",
+          "translation": "неопределённый артикль",
+          "dictionary_form": "ein",
+          "label": "Article",
+          "parts": [
+            "ein"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "Buch",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "buch",
+          "label": "Object",
+          "parts": [
+            "Buch"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Liest — личная форма lesen. В этом утверждении перед ней одна группа: Der (kleine) Junge. Второе место означает вторую группу, не обязательно второе слово.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "liest"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Buch — то, что читают. Ein Buch здесь дополнение; у среднего рода форма артикля ein одинакова в именительном и винительном падежах, поэтому одного артикля недостаточно.",
+          "evidence": [
+            {
+              "tokenIndex": 6,
+              "form": "Buch"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "Junge"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "kleine"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 4,
+              "form": "hier"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    },
+    {
+      "id": "study_fr_3",
+      "language": "Français",
+      "sentence": "Le petit garçon lit un livre ici.",
+      "words": [
+        {
+          "text": "Le",
+          "role": "Article",
+          "translation": "определённый артикль",
+          "dictionary_form": "le",
+          "label": "Article",
+          "parts": [
+            "Le"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "petit",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "petit",
+          "label": "Attribute_Subject",
+          "parts": [
+            "petit"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "garçon",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "garçon",
+          "label": "Subject",
+          "parts": [
+            "garçon"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "lit",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "lire",
+          "label": "Predicate",
+          "parts": [
+            "lit"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "un",
+          "role": "Article",
+          "translation": "неопределённый артикль",
+          "dictionary_form": "un",
+          "label": "Article",
+          "parts": [
+            "un"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "livre",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "livre",
+          "label": "Object",
+          "parts": [
+            "livre"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "ici",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "ici",
+          "label": "Circumstance",
+          "parts": [
+            "ici"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Lit — личная форма lire. В этом предложении действие связано с garçon; форма неправильная, её не следует разбирать по образцу обычных глаголов на -er.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "lit"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Livre обозначает предмет чтения и следует за lit. Un — артикль существительного, а не показатель действующего лица.",
+          "evidence": [
+            {
+              "tokenIndex": 5,
+              "form": "livre"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "garçon"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "petit"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 6,
+              "form": "ici"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    },
+    {
+      "id": "study_kz_3",
+      "language": "Қазақша",
+      "sentence": "Кішкентай бала мұнда кітап оқиды.",
+      "words": [
+        {
+          "text": "Кішкентай",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "кішкентай",
+          "label": "Attribute_Subject",
+          "parts": [
+            "Кішкентай"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "бала",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "бала",
+          "label": "Subject",
+          "parts": [
+            "бала"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "мұнда",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "мұнда",
+          "label": "Circumstance",
+          "parts": [
+            "мұнда"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "кітап",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "кітап",
+          "label": "Object",
+          "parts": [
+            "кітап"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "оқиды",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "оқу",
+          "label": "Predicate",
+          "parts": [
+            "оқиды"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Оқиды — личная форма оқу; в этом нейтральном предложении сказуемое завершает высказывание. Одного последнего места недостаточно: проверяем значение и форму.",
+          "evidence": [
+            {
+              "tokenIndex": 4,
+              "form": "оқиды"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Кітап — неопределённый предмет чтения без окончания винительного падежа. Здесь он стоит непосредственно перед оқиды; отсутствие окончания не делает его подлежащим.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "кітап"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "бала"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 0,
+              "form": "Кішкентай"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "мұнда"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    },
+    {
+      "id": "study_la_3",
+      "language": "Latin",
+      "sentence": "Puer parvus hic librum legit.",
+      "words": [
+        {
+          "text": "Puer",
+          "role": "Subject",
+          "translation": "мальчик",
+          "dictionary_form": "puer",
+          "label": "Subject",
+          "parts": [
+            "Puer"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "parvus",
+          "role": "Attribute_Subject",
+          "translation": "маленький",
+          "dictionary_form": "parvus",
+          "label": "Attribute_Subject",
+          "parts": [
+            "parvus"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "hic",
+          "role": "Circumstance",
+          "translation": "здесь",
+          "dictionary_form": "hic",
+          "label": "Circumstance",
+          "parts": [
+            "hic"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "librum",
+          "role": "Object",
+          "translation": "книгу",
+          "dictionary_form": "liber",
+          "label": "Object",
+          "parts": [
+            "librum"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        },
+        {
+          "text": "legit",
+          "role": "Predicate",
+          "translation": "читает",
+          "dictionary_form": "legere",
+          "label": "Predicate",
+          "parts": [
+            "legit"
+          ],
+          "is_in_my_dict": false,
+          "clauseIndex": 0
+        }
+      ],
+      "source": "seed",
+      "literalTranslation": "Маленький мальчик читает книгу здесь.",
+      "markerHints": [
+        {
+          "role": "Predicate",
+          "clauseIndex": 0,
+          "explanation": "Legit здесь читается как настоящее время «он читает»; в письме без знака долготы форма может быть неоднозначна по времени. В этом учебном примере задано настоящее.",
+          "evidence": [
+            {
+              "tokenIndex": 4,
+              "form": "legit"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Object",
+          "clauseIndex": 0,
+          "explanation": "Librum — винительный падеж единственного числа liber. Окончание -um помогает узнать дополнение, даже когда оно находится перед глаголом.",
+          "evidence": [
+            {
+              "tokenIndex": 3,
+              "form": "librum"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Subject",
+          "clauseIndex": 0,
+          "explanation": "Это участник, о котором здесь сообщается действие чтения. Сопоставьте его со сказуемым; само первое место в предложении не является универсальным правилом.",
+          "evidence": [
+            {
+              "tokenIndex": 0,
+              "form": "Puer"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Attribute_Subject",
+          "clauseIndex": 0,
+          "explanation": "Это слово уточняет признак мальчика. Свяжите его с существительным, а не со способом чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 1,
+              "form": "parvus"
+            }
+          ],
+          "source": "authored"
+        },
+        {
+          "role": "Circumstance",
+          "clauseIndex": 0,
+          "explanation": "Это указание места: отвечает на вопрос «где читает?». Уточняет ситуацию чтения, а не называет предмет чтения.",
+          "evidence": [
+            {
+              "tokenIndex": 2,
+              "form": "hic"
+            }
+          ],
+          "source": "authored"
+        }
+      ]
+    }
+  ]
+}

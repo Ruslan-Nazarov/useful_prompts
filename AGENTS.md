@@ -1,7 +1,8 @@
 # Правила публичного репозитория / Public repository rules
 
-- Позиционирование: `papanda — приложение для тайм-менеджмента`; по-английски `papanda — a time management app`.
-- Product description: `papanda — a time management app`.
+- Каталог `papanda/`: `papanda — приложение для тайм-менеджмента`; по-английски `papanda — a time management app`.
+- Каталог `papanda-language/`: `papanda — приложение для изучения языков`; по-английски `papanda — a language learning app`.
+- Product descriptions are scoped by directory: `papanda/` is a time management app; `papanda-language/` is a language learning app. Keep the two assignments independent.
 
 - Название приложения всегда пишется `papanda`, со строчной буквы, в том числе в начале предложений и заголовках. Технические имена переменных, классов и API сохраняют совместимость.
 - Публичные материалы адресованы читателю, который собирает своё приложение. Не добавляйте сценарии съёмки, обращения к автору видео, внутренние ревью, служебные инструкции публикации и локальные скрипты подготовки ролика.
