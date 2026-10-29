@@ -10,6 +10,7 @@
 |---|---|---|
 | papanda — тайм-менеджмент | Приложение для тайм-менеджмента: задачи, календарь, привычки и заметки | [Русский](papanda/README.md) · [English](papanda/README.en.md) |
 | papanda — изучение языков | Разбор предложений, словарь, повторение, мастерская и встроенная книга | [Русский](papanda-language/README.md) · [English](papanda-language/README.en.md) |
+| DeskTools — инструменты Windows | Переназначения клавиатуры и мыши, OCR, текстовые шаблоны и подсветка Razer | [Русский](desktools/README.md) · [English](desktools/README.en.md) |
 
 Откройте README нужного проекта и следуйте инструкции. Промпты и требования
 доступны на русском и английском. Примеры пользовательских данных — на русском;
@@ -27,3 +28,7 @@
 [протокол ИИ](papanda-language/AI.md), [развёртывание](papanda-language/DEPLOYMENT.md)
 и [разработка](papanda-language/DEVELOPMENT.md). Приложены автономные учебные данные
 и авторская книга с [отдельными условиями использования](papanda-language/SOURCES.md).
+
+В комплекте DeskTools: [полное ТЗ](desktools/SPEC.md),
+[40 требований](desktools/FEATURES.md), [20 сценариев приёмки](desktools/ACCEPTANCE.md),
+[визуальная спецификация](desktools/VISUAL.md) и вымышленные настройки для проверки.

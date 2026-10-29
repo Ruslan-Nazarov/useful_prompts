@@ -1,0 +1,14 @@
+{
+  "colors": {
+    "canvas": "#F7F7F5", "surface": "#FFFFFF", "subtle": "#F2F3F0",
+    "accent": "#C65300", "hover": "#A94400", "soft": "#F7E9DD",
+    "ink": "#272B28", "body": "#636C67", "muted": "#7C847F",
+    "border": "#E1E4DF", "focus": "#A94400", "error": "#C43E42",
+    "success": "#198575", "sidebar": "#212420", "sidebarText": "#D1D8D2",
+    "sidebarMuted": "#9CA79E", "sidebarSelected": "#513A24", "sidebarAccent": "#FFB56F"
+  },
+  "typography": { "family": "Segoe UI", "bodyPx": 14, "headingPx": 18, "titlePx": 24, "headingWeight": 700 },
+  "layout": { "sidebarPx": 208, "topNavigationBelowPx": 768, "workspacePaddingPx": 20, "narrowPaddingPx": 14, "surfacePaddingPx": 16, "gapPx": 16, "radiusPx": 0 },
+  "controls": { "buttonHeightPx": 36, "bindingRowHeightPx": 32, "pickerRowHeightPx": 58, "pickerWidthPx": 438, "pickerHeightPx": 540, "screenMarginPx": 8 },
+  "verificationWidthsPx": [390, 768, 1440]
+}

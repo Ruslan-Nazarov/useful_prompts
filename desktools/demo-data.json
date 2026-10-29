@@ -1,0 +1,31 @@
+{
+  "fictional": true,
+  "description": "Вымышленный отдельный профиль. Не заменять им личные настройки. Глобальные назначения и подсветка изначально выключены.",
+  "settings": {
+    "version": 1,
+    "remappingEnabled": false,
+    "ocrEnabled": false,
+    "ocrLanguage": "",
+    "ocrSingleParagraph": false,
+    "ocrShowResult": true,
+    "mappings": [
+      { "name": "Следующий трек", "enabled": true, "source": [161, 39], "kind": "keys", "keys": [176], "exactMatch": false },
+      { "name": "Буква ё", "enabled": true, "source": [164, 192], "kind": "text", "text": "ё", "exactMatch": false },
+      { "name": "Пример сайта", "enabled": false, "source": [162, 165, 69], "kind": "url", "url": "https://example.com/", "exactMatch": true },
+      { "name": "Пример обычного сочетания", "enabled": false, "source": [32, 68], "kind": "text", "text": "Пример ответа", "exactMatch": false }
+    ],
+    "mouse": {
+      "enabled": false,
+      "bindings": [
+        { "button": "middle", "enabled": true, "kind": "keys", "keys": [164, 9] },
+        { "button": "x2", "enabled": true, "kind": "keys", "keys": [179] }
+      ],
+      "lighting": { "enabled": false, "brightness": 60, "scheduleEnabled": false, "offAt": "23:00", "onAt": "08:00", "idleMinutes": 0 }
+    },
+    "templates": [
+      { "name": "Приветствие", "text": "Здравствуйте!\r\nСпасибо за сообщение." },
+      { "name": "Подпись", "text": "С уважением,\r\nКоманда «Пример»" },
+      { "name": "Длинный ответ для проверки предпросмотра", "text": "Это вымышленный ответ для проверки поиска, переноса строк и предпросмотра.\r\n\r\nEmoji: 🙂. Кириллица и латиница: Пример / Example.\r\nНикаких личных данных здесь нет." }
+    ]
+  }
+}

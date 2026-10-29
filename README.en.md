@@ -10,6 +10,7 @@ independent implementation.
 |---|---|---|
 | papanda — time management | A time management app with tasks, a calendar, habits, and notes | [English](papanda/README.en.md) · [Русский](papanda/README.md) |
 | papanda — language learning | Sentence analysis, dictionary, review, workshop and an embedded book | [English](papanda-language/README.en.md) · [Русский](papanda-language/README.md) |
+| DeskTools — Windows tools | Keyboard and mouse remapping, OCR, text templates, and Razer lighting | [English](desktools/README.en.md) · [Русский](desktools/README.md) |
 
 Open the project's README and follow its instructions. Prompts and requirements
 are available in Russian and English. Sample user data is in Russian;
@@ -28,3 +29,7 @@ The language learning kit includes a [full specification](papanda-language/SPEC.
 an [AI protocol](papanda-language/AI.en.md), [deployment](papanda-language/DEPLOYMENT.en.md)
 and [development](papanda-language/DEVELOPMENT.en.md) guides. Offline learning
 datasets and the author's book are supplied with [separate source notices](papanda-language/SOURCES.en.md).
+
+The DeskTools kit includes a [full specification](desktools/SPEC.en.md),
+[40 requirements](desktools/FEATURES.en.md), [20 acceptance scenarios](desktools/ACCEPTANCE.en.md),
+a [visual specification](desktools/VISUAL.en.md), and fictional settings for verification.
