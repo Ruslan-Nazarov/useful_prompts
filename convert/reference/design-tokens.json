@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "convert-design-tokens",
+  "version": "1.0.0",
+  "description": "Design tokens for the convert application in Windows 11 Fluent style",
+  "colors": {
+    "background": {
+      "main": "#f3f4f8",
+      "surface": "#ffffff",
+      "surface_alt": "#fafafc",
+      "sidebar": "#ffffff",
+      "hover": "#f3f4f8",
+      "active_tab": "#eeecfb"
+    },
+    "brand": {
+      "primary": "#5d46e2",
+      "primary_hover": "#4f39c9",
+      "primary_light": "#eeecfb",
+      "accent": "#2457d6"
+    },
+    "text": {
+      "primary": "#1f2937",
+      "secondary": "#4b5563",
+      "muted": "#6b7280",
+      "disabled": "#9ca3af",
+      "inverse": "#ffffff"
+    },
+    "borders": {
+      "subtle": "#f1f3f7",
+      "default": "#e5e7eb",
+      "sidebar": "#e2e4ea",
+      "focus": "#5d46e2"
+    },
+    "status": {
+      "success": "#059669",
+      "success_bg": "#ecfdf5",
+      "error": "#dc2626",
+      "error_bg": "#fef2f2",
+      "warning": "#d97706",
+      "warning_bg": "#fffbeb",
+      "info": "#2563eb",
+      "info_bg": "#eff6ff"
+    }
+  },
+  "typography": {
+    "font_family": "\"Segoe UI Variable Text\", \"Segoe UI\", -apple-system, sans-serif",
+    "sizes": {
+      "xs": "11px",
+      "sm": "12px",
+      "base": "13px",
+      "md": "14px",
+      "lg": "16px",
+      "xl": "18px",
+      "title": "24px"
+    },
+    "weights": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    }
+  },
+  "radii": {
+    "sm": "4px",
+    "md": "6px",
+    "lg": "8px",
+    "card": "12px",
+    "pill": "20px"
+  },
+  "shadows": {
+    "subtle": "0 1px 3px rgba(0, 0, 0, 0.04)",
+    "card": "0 2px 8px rgba(0, 0, 0, 0.05)",
+    "elevated": "0 8px 24px rgba(0, 0, 0, 0.08)"
+  },
+  "layout": {
+    "window_default": {
+      "width": 1120,
+      "height": 780
+    },
+    "window_min": {
+      "width": 920,
+      "height": 640
+    },
+    "sidebar_width": 210,
+    "thumbnail_preview": {
+      "width": 250,
+      "height": 190
+    }
+  }
+}
